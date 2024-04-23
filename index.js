@@ -1,5 +1,6 @@
 // index.js
 
+require("dotenv").config({ debug: true })
 const express = require("express");
 const app = express();
 const morgan = require("morgan");
@@ -16,9 +17,8 @@ const userRouter = require("./routes/userRoute.route");
 const OrderRouter = require("./routes/orderRoutes.route");
 const CustomerRouter = require("./routes/customerRoutes.route");
 const authenticateToken = require("./middlewares/authMiddleware.middleware");
-require("dotenv").config({ debug: true });
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 8000;
 
 app.use(cors());
 app.use(express.json());

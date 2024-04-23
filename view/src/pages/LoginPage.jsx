@@ -4,8 +4,8 @@ import { useSelector, useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 import { loginRequest } from "../store/actions/authActions";
 const initial = {
-  name: "disha",
-  password: "disha",
+  name: "",
+  password: "",
 };
 
 const LoginPage = () => {

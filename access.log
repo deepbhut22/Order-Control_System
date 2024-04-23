@@ -1,2 +1,1462 @@
 GET /api/items 304  - 276.475 ms
 
+POST /api/users/register 201 224 - 124.352 ms
+GET /api/items 200 2 - 4.955 ms
+GET /api/orders 200 2 - 9.954 ms
+GET /api/customers 200 2 - 6.952 ms
+GET /api/delivery-vehicles 200 2 - 5.924 ms
+GET /api/delivery-vehicles 304  - 5.255 ms
+POST /api/delivery-vehicles 201 207 - 4.683 ms
+GET /api/customers 304  - 3.274 ms
+GET /api/items 304  - 2.188 ms
+POST /api/items 201 153 - 4.322 ms
+POST /api/items 201 154 - 3.540 ms
+GET /api/delivery-vehicles 200 209 - 11.948 ms
+GET /api/orders 304  - 9.989 ms
+GET /api/customers 304  - 7.771 ms
+GET /api/customers 304  - 4.240 ms
+POST /api/customers 201 160 - 4.625 ms
+GET /api/customers 200 162 - 10.681 ms
+GET /api/orders 304  - 8.310 ms
+GET /api/delivery-vehicles 304  - 7.402 ms
+POST /api/users/login 200 224 - 38.930 ms
+GET /api/orders 304  - 36.242 ms
+GET /api/customers 304  - 28.303 ms
+GET /api/delivery-vehicles 304  - 21.846 ms
+GET /api/items 200 310 - 6.051 ms
+GET /api/orders 304  - 21.855 ms
+GET /api/customers 304  - 19.075 ms
+GET /api/delivery-vehicles 304  - 13.768 ms
+POST /api/users/login 200 224 - 11.404 ms
+GET /api/orders 304  - 33.563 ms
+GET /api/customers 304  - 25.583 ms
+GET /api/delivery-vehicles 304  - 19.406 ms
+POST /api/users/login 200 224 - 11.531 ms
+GET /api/orders 304  - 18.022 ms
+GET /api/customers 304  - 17.500 ms
+GET /api/delivery-vehicles 304  - 16.223 ms
+GET /api/items 304  - 4.879 ms
+GET /api/orders 304  - 19.135 ms
+GET /api/customers 304  - 14.684 ms
+GET /api/delivery-vehicles 304  - 11.480 ms
+POST /api/users/login 200 224 - 12.645 ms
+GET /api/items 304  - 4.721 ms
+GET /api/orders 304  - 41.170 ms
+GET /api/customers 304  - 24.188 ms
+GET /api/delivery-vehicles 304  - 17.427 ms
+GET /api/orders 304  - 7.724 ms
+GET /api/customers 304  - 6.466 ms
+GET /api/delivery-vehicles 304  - 5.580 ms
+GET /api/orders 304  - 14.314 ms
+GET /api/customers 304  - 11.814 ms
+GET /api/delivery-vehicles 304  - 8.070 ms
+GET /api/orders 304  - 17.304 ms
+GET /api/customers 304  - 13.561 ms
+GET /api/delivery-vehicles 304  - 9.253 ms
+GET /api/orders 304  - 8.930 ms
+GET /api/customers 304  - 7.009 ms
+GET /api/delivery-vehicles 304  - 6.476 ms
+POST /api/orders 201 297 - 43.948 ms
+GET /api/customers 304  - 8.847 ms
+POST /api/customers 201 158 - 7.801 ms
+GET /api/delivery-vehicles 200 209 - 4.783 ms
+POST /api/delivery-vehicles 201 217 - 9.096 ms
+GET /api/delivery-vehicles 200 427 - 15.689 ms
+GET /api/customers 200 321 - 12.645 ms
+GET /api/orders 200 299 - 10.126 ms
+POST /api/orders 201 297 - 21.016 ms
+PATCH /api/orders/662145819f20338a0f896a33/delivered 200 296 - 15.671 ms
+POST /api/users/login 200 224 - 40.697 ms
+GET /api/items 304  - 9.889 ms
+GET /api/orders 200 596 - 32.759 ms
+GET /api/customers 304  - 22.921 ms
+GET /api/delivery-vehicles 200 427 - 20.598 ms
+GET /api//orders/search?q=r 401 54 - 0.772 ms
+POST /api/users/login 401 28 - 23.447 ms
+POST /api/users/login 200 224 - 24.196 ms
+GET /api/orders 304  - 40.988 ms
+GET /api/customers 304  - 30.626 ms
+GET /api/delivery-vehicles 304  - 24.900 ms
+GET /api//orders/search?q=j 401 54 - 0.652 ms
+GET /api/orders 304  - 10.005 ms
+GET /api/customers 304  - 8.629 ms
+GET /api/delivery-vehicles 304  - 7.310 ms
+GET /api//orders/search?q=h 401 54 - 0.285 ms
+GET /api/orders 304  - 13.113 ms
+GET /api/customers 304  - 9.463 ms
+GET /api/delivery-vehicles 304  - 6.449 ms
+GET /api//orders/search?q=d 401 54 - 0.275 ms
+GET /api/orders 304  - 13.332 ms
+GET /api/customers 304  - 10.196 ms
+GET /api/delivery-vehicles 304  - 8.966 ms
+GET /api//orders/search?q=g 200 35 - 2.599 ms
+GET /api//orders/search?q= 200 106 - 1.403 ms
+GET /api//orders/search?q=b 200 24 - 3.844 ms
+GET /api//orders/search?q=bh 200 12 - 3.552 ms
+GET /api//orders/search?q=bha 200 12 - 3.043 ms
+GET /api//orders/search?q=bh 304  - 4.446 ms
+GET /api//orders/search?q=b 304  - 5.340 ms
+GET /api//orders/search?q= 304  - 4.846 ms
+GET /api//orders/search?q=r 200 43 - 4.959 ms
+GET /api//orders/search?q=ra 200 21 - 3.787 ms
+GET /api//orders/search?q=raj 200 10 - 4.497 ms
+GET /api//orders/search?q=ra 304  - 4.308 ms
+GET /api//orders/search?q=r 200 427 - 21.936 ms
+GET /api//orders/search?q= 200 427 - 3.712 ms
+GET /api//orders/search?q=r 304  - 11.454 ms
+GET /api//orders/search?q=ra 200 209 - 9.530 ms
+GET /api/orders 304  - 16.585 ms
+GET /api/customers 304  - 12.037 ms
+GET /api/delivery-vehicles 304  - 8.006 ms
+GET /api//orders/search?q=r 304  - 4.987 ms
+GET /api//orders/search?q=ra 304  - 4.527 ms
+GET /api//orders/search?q=r 304  - 9.162 ms
+GET /api//orders/search?q= 304  - 8.705 ms
+GET /api//orders/search?q=r 304  - 11.770 ms
+GET /api//orders/search?q=ra 304  - 9.018 ms
+GET /api//orders/search?q=raj 200 209 - 6.723 ms
+GET /api//orders/search?q=ra 304  - 9.631 ms
+GET /api//orders/search?q=r 304  - 12.660 ms
+GET /api//orders/search?q= 304  - 10.310 ms
+GET /api//orders/search?q=r 304  - 9.611 ms
+GET /api//orders/search?q=ra 304  - 9.444 ms
+GET /api//orders/search?q=raj 304  - 8.035 ms
+GET /api/orders 304  - 14.749 ms
+GET /api/customers 304  - 11.606 ms
+GET /api/delivery-vehicles 304  - 7.094 ms
+GET /api//orders/search?q=d 200 2 - 5.655 ms
+GET /api//orders/search?q=da 200 2 - 3.464 ms
+GET /api//orders/search?q=das 200 2 - 3.256 ms
+GET /api//orders/search?q=da 304  - 7.671 ms
+GET /api//orders/search?q=d 304  - 6.838 ms
+GET /api//orders/search?q= 304  - 8.416 ms
+GET /api//orders/search?q=r 304  - 7.713 ms
+GET /api//orders/search?q=ra 304  - 6.708 ms
+GET /api//orders/search?q=rajko 200 209 - 6.629 ms
+GET /api//orders/search?q=rajk 200 209 - 3.601 ms
+GET /api//orders/search?q=raj 304  - 3.198 ms
+GET /api//orders/search?q=ra 304  - 4.572 ms
+GET /api//orders/search?q=r 304  - 2.950 ms
+GET /api//orders/search?q= 304  - 4.741 ms
+GET /api//orders/search?q=a 200 427 - 6.723 ms
+GET /api//orders/search?q=ah 200 2 - 6.520 ms
+GET /api//orders/search?q=ahm 200 2 - 5.207 ms
+GET /api//orders/search?q=ah 304  - 6.863 ms
+GET /api//orders/search?q=a 304  - 7.862 ms
+GET /api//orders/search?q= 304  - 7.027 ms
+GET /api//orders/search?q=v 200 219 - 8.045 ms
+GET /api//orders/search?q=va 200 2 - 7.632 ms
+GET /api//orders/search?q=vad 200 2 - 6.464 ms
+GET /api//orders/search?q=va 304  - 7.209 ms
+GET /api//orders/search?q=v 304  - 7.133 ms
+GET /api//orders/search?q= 304  - 6.631 ms
+GET /api//orders/search?q=b 200 219 - 5.927 ms
+GET /api//orders/search?q=bh 200 219 - 8.116 ms
+GET /api//orders/search?q=b 304  - 10.489 ms
+GET /api//orders/search?q= 304  - 11.687 ms
+POST /api/users/login 200 224 - 17.375 ms
+GET /api/items 304  - 5.947 ms
+POST /api/items 201 153 - 37.925 ms
+GET /api/orders 304  - 15.615 ms
+GET /api/customers 304  - 11.870 ms
+GET /api/delivery-vehicles 304  - 7.603 ms
+GET /api/customers 304  - 7.763 ms
+GET /api/delivery-vehicles 304  - 7.503 ms
+GET /api/orders 304  - 22.761 ms
+GET /api/customers 304  - 18.599 ms
+GET /api/delivery-vehicles 304  - 14.425 ms
+GET /api//orders/search?q=r 304  - 8.142 ms
+GET /api//orders/search?q=ra 304  - 6.657 ms
+GET /api//orders/search?q=r 304  - 7.254 ms
+GET /api//orders/search?q= 304  - 7.930 ms
+GET /api//orders/search?q=b 304  - 5.859 ms
+GET /api//orders/search?q=bh 304  - 9.428 ms
+GET /api//orders/search?q=bha 200 219 - 10.142 ms
+GET /api//orders/search?q=bhav 200 219 - 7.300 ms
+GET /api//orders/search?q=bha 304  - 8.419 ms
+GET /api//orders/search?q=bh 304  - 10.446 ms
+GET /api//orders/search?q=b 304  - 7.574 ms
+GET /api//orders/search?q= 304  - 12.229 ms
+GET /api/items 200 464 - 3.412 ms
+GET /api/customers 304  - 5.500 ms
+GET /api/orders 304  - 13.238 ms
+GET /api/customers 304  - 9.123 ms
+GET /api/delivery-vehicles 304  - 6.129 ms
+POST /api/users/login 200 224 - 22.386 ms
+GET /api/items 304  - 5.864 ms
+GET /api/orders 304  - 18.274 ms
+GET /api/customers 304  - 14.384 ms
+GET /api/delivery-vehicles 304  - 11.762 ms
+GET /api//orders/search?q=r 304  - 4.971 ms
+GET /api//orders/search?q=ra 304  - 4.347 ms
+GET /api//orders/search?q=raj 304  - 7.983 ms
+GET /api//orders/search?q=ra 304  - 4.955 ms
+GET /api//orders/search?q=r 304  - 4.479 ms
+GET /api//orders/search?q= 304  - 6.566 ms
+GET /api//orders/search?q=b 304  - 6.629 ms
+GET /api//orders/search?q=bh 304  - 3.757 ms
+GET /api//orders/search?q=bha 304  - 4.037 ms
+GET /api//orders/search?q=bhav 304  - 4.456 ms
+GET /api//orders/search?q=bha 304  - 4.432 ms
+GET /api//orders/search?q=bh 304  - 3.852 ms
+GET /api//orders/search?q=b 304  - 6.101 ms
+GET /api//orders/search?q= 304  - 5.523 ms
+POST /api/orders 201 297 - 35.710 ms
+GET /api/orders 200 894 - 17.153 ms
+GET /api/customers 304  - 12.033 ms
+GET /api/delivery-vehicles 200 427 - 9.625 ms
+GET /api/orders 304  - 16.191 ms
+GET /api/customers 304  - 13.666 ms
+GET /api/delivery-vehicles 304  - 9.723 ms
+POST /api/users/login 200 224 - 3.812 ms
+GET /api/items 304  - 2.259 ms
+GET /api/orders 304  - 8.825 ms
+GET /api/customers 304  - 7.130 ms
+GET /api/delivery-vehicles 304  - 4.598 ms
+GET /api//orders/search?q=raj 200 209 - 5.706 ms
+GET /api//orders/search?q=ra 200 209 - 4.856 ms
+GET /api//orders/search?q=r 200 427 - 3.278 ms
+GET /api//orders/search?q= 200 427 - 3.023 ms
+GET /api//orders/search?q=b 304  - 3.319 ms
+GET /api//orders/search?q=bh 304  - 3.462 ms
+GET /api//orders/search?q=bha 304  - 3.454 ms
+GET /api//orders/search?q=bh 304  - 3.627 ms
+GET /api//orders/search?q=b 304  - 3.020 ms
+GET /api//orders/search?q= 304  - 2.810 ms
+POST /api/users/login 200 224 - 4.134 ms
+GET /api/items 304  - 2.587 ms
+GET /api/orders 304  - 12.504 ms
+GET /api/customers 304  - 10.159 ms
+GET /api/delivery-vehicles 304  - 7.921 ms
+GET /api//orders/search?q=r 304  - 3.438 ms
+GET /api//orders/search?q=ra 304  - 2.997 ms
+GET /api//orders/search?q=raj 304  - 4.186 ms
+GET /api//orders/search?q=ra 304  - 3.349 ms
+GET /api//orders/search?q=r 304  - 4.468 ms
+GET /api//orders/search?q= 304  - 5.382 ms
+GET /api//orders/search?q=h 200 219 - 3.717 ms
+GET /api//orders/search?q= 304  - 3.790 ms
+GET /api//orders/search?q=r 304  - 5.964 ms
+GET /api//orders/search?q=ra 304  - 3.064 ms
+GET /api//orders/search?q=raj 304  - 3.349 ms
+GET /api//orders/search?q=ra 304  - 2.722 ms
+GET /api//orders/search?q=r 304  - 3.297 ms
+GET /api//orders/search?q= 304  - 2.948 ms
+GET /api//orders/search?q=b 304  - 5.162 ms
+GET /api//orders/search?q=bh 304  - 4.716 ms
+GET /api//orders/search?q=bha 304  - 3.590 ms
+GET /api//orders/search?q=bhavnaga 200 219 - 5.783 ms
+GET /api//orders/search?q=bhavnag 200 219 - 3.900 ms
+GET /api//orders/search?q=bhavna 200 219 - 3.254 ms
+GET /api//orders/search?q=bhavn 200 219 - 3.580 ms
+GET /api//orders/search?q=bhav 304  - 3.271 ms
+GET /api//orders/search?q=bha 304  - 3.179 ms
+GET /api//orders/search?q=bh 304  - 3.550 ms
+GET /api//orders/search?q=b 304  - 4.299 ms
+GET /api//orders/search?q= 304  - 3.478 ms
+GET /api//orders/search?q=r 304  - 3.603 ms
+GET /api//orders/search?q=ra 304  - 3.677 ms
+GET /api//orders/search?q=r 304  - 3.235 ms
+GET /api//orders/search?q= 304  - 3.722 ms
+GET /api//orders/search?q=b 304  - 3.501 ms
+GET /api//orders/search?q=bh 304  - 3.456 ms
+GET /api//orders/search?q=bha 304  - 4.028 ms
+GET /api//orders/search?q=bhavnaga 304  - 4.142 ms
+GET /api//orders/search?q=bhavnag 304  - 3.760 ms
+GET /api//orders/search?q=bhavna 304  - 4.508 ms
+GET /api//orders/search?q=bhavn 304  - 3.526 ms
+GET /api//orders/search?q=bhav 304  - 2.970 ms
+GET /api//orders/search?q=bha 304  - 3.739 ms
+GET /api//orders/search?q=bh 304  - 6.359 ms
+GET /api//orders/search?q=b 304  - 4.018 ms
+GET /api//orders/search?q= 304  - 3.018 ms
+GET /api//orders/search?q=r 304  - 4.009 ms
+GET /api//orders/search?q=ra 304  - 3.567 ms
+GET /api//orders/search?q=raj 304  - 3.095 ms
+GET /api//orders/search?q=12 200 2 - 4.868 ms
+GET /api//orders/search?q=1 200 2 - 3.333 ms
+GET /api//orders/search?q= 304  - 3.989 ms
+GET /api//orders/search?q=b 304  - 3.508 ms
+GET /api//orders/search?q=bh 304  - 5.562 ms
+GET /api//orders/search?q=bha 304  - 8.440 ms
+GET /api//orders/search?q=bhav 304  - 4.368 ms
+GET /api/orders 304  - 7.413 ms
+GET /api/customers 304  - 5.594 ms
+GET /api/delivery-vehicles 304  - 4.211 ms
+GET /api/orders 304  - 7.876 ms
+GET /api/customers 304  - 6.250 ms
+GET /api/delivery-vehicles 304  - 5.329 ms
+GET /api/orders 304  - 16.516 ms
+GET /api/customers 304  - 11.476 ms
+GET /api/delivery-vehicles 304  - 7.697 ms
+POST /api/orders 201 297 - 17.830 ms
+GET /api//orders/search?q=gj05ab505 200 2 - 8.855 ms
+GET /api//orders/search?q=gj05ab50 200 2 - 3.472 ms
+GET /api//orders/search?q=gj05ab5 200 2 - 2.706 ms
+GET /api//orders/search?q=gj05ab 200 2 - 3.118 ms
+GET /api//orders/search?q=gj05a 200 2 - 3.425 ms
+GET /api//orders/search?q=gj05 200 2 - 3.162 ms
+GET /api//orders/search?q=gj0 200 2 - 7.410 ms
+GET /api//orders/search?q=gj 200 2 - 4.090 ms
+GET /api//orders/search?q=g 200 219 - 4.809 ms
+GET /api//orders/search?q= 200 427 - 4.803 ms
+GET /api//orders/search?q=r 200 427 - 3.788 ms
+GET /api//orders/search?q=ra 200 209 - 4.208 ms
+GET /api//orders/search?q=raj 200 209 - 3.337 ms
+GET /api//orders/search?q=rajk 200 209 - 2.978 ms
+GET /api//orders/search?q=rajko 200 209 - 3.583 ms
+GET /api//orders/search?q=rajkot 200 209 - 4.020 ms
+POST /api/users/login 200 224 - 3.574 ms
+GET /api/orders 200 1192 - 9.511 ms
+GET /api/customers 304  - 7.798 ms
+GET /api/delivery-vehicles 200 427 - 6.365 ms
+GET /api/orders 304  - 10.553 ms
+GET /api/customers 304  - 7.058 ms
+GET /api/delivery-vehicles 304  - 4.260 ms
+GET /api//orders/search?q=r 304  - 5.048 ms
+GET /api//orders/search?q=ra 304  - 2.995 ms
+GET /api//orders/search?q=raj 304  - 5.431 ms
+GET /api//orders/search?q=ra 304  - 3.162 ms
+GET /api//orders/search?q=r 304  - 3.293 ms
+GET /api//orders/search?q= 304  - 3.072 ms
+GET /api//orders/search?q= 304  - 4.596 ms
+GET /api//orders/search?q= 304  - 8.033 ms
+GET /api/orders 304  - 41.525 ms
+GET /api/customers 304  - 25.142 ms
+GET /api/delivery-vehicles 304  - 22.423 ms
+GET /api//orders/searchVehicle?q=gj05ab505 200 2 - 4.232 ms
+GET /api//orders/searchVehicle?q=gj05ab50 200 2 - 4.523 ms
+GET /api//orders/searchVehicle?q=gj05ab5 200 2 - 5.332 ms
+GET /api//orders/searchVehicle?q=gj05ab 200 2 - 5.490 ms
+GET /api//orders/searchVehicle?q=gj05a 200 2 - 6.025 ms
+GET /api//orders/searchVehicle?q=gj05 200 2 - 5.634 ms
+GET /api//orders/searchVehicle?q=gj0 200 2 - 3.494 ms
+GET /api//orders/searchVehicle?q=gj 200 2 - 4.542 ms
+GET /api//orders/searchVehicle?q=g 200 219 - 5.823 ms
+GET /api//orders/searchVehicle?q= 200 427 - 7.225 ms
+GET /api/orders 304  - 12.736 ms
+GET /api/customers 304  - 9.437 ms
+GET /api/delivery-vehicles 304  - 6.160 ms
+GET /api/orders/searchVehicle?q=r 200 427 - 3.481 ms
+GET /api/orders/searchVehicle?q=ra 200 209 - 3.647 ms
+GET /api/orders/searchVehicle?q=raj 200 209 - 3.529 ms
+GET /api/orders/searchVehicle?q=ra 304  - 4.625 ms
+GET /api/orders/searchVehicle?q=r 304  - 3.667 ms
+GET /api/orders/searchVehicle?q= 200 427 - 3.463 ms
+GET /api/orders/searchItem?q=f 200 155 - 3.623 ms
+GET /api/orders/searchItem?q=fi 200 155 - 6.468 ms
+GET /api/orders/searchItem?q=fis 200 2 - 3.431 ms
+GET /api/orders/searchItem?q=fi 304  - 4.121 ms
+GET /api/orders/searchItem?q=f 304  - 3.338 ms
+GET /api/orders/searchItem?q= 200 464 - 6.332 ms
+GET /api/orders/searchItem?q=f 304  - 3.817 ms
+GET /api/orders/searchItem?q= 304  - 5.347 ms
+GET /api/orders/searchItem?q=s 200 310 - 3.771 ms
+GET /api/orders/searchItem?q= 304  - 3.068 ms
+GET /api/orders/searchItem?q=f 304  - 3.173 ms
+GET /api/orders/searchItem?q= 304  - 4.900 ms
+POST /api/users/login 200 224 - 7.837 ms
+GET /api/orders 304  - 8.754 ms
+GET /api/customers 304  - 7.156 ms
+GET /api/delivery-vehicles 304  - 6.108 ms
+GET /api/orders/searchItem?q=f 304  - 3.150 ms
+GET /api/orders/searchItem?q= 304  - 3.410 ms
+GET /api/orders/searchItem?q=s 304  - 3.197 ms
+GET /api/orders/searchItem?q= 304  - 3.619 ms
+GET /api/orders/searchItem?q=f 304  - 4.051 ms
+GET /api/orders/searchItem?q=fi 304  - 3.475 ms
+GET /api/orders/searchItem?q=fir 200 155 - 3.292 ms
+GET /api/orders/searchItem?q=firt 200 2 - 4.171 ms
+GET /api/orders/searchItem?q=fir 304  - 3.097 ms
+GET /api/orders/searchItem?q=first%20ite 200 155 - 3.756 ms
+GET /api/orders/searchItem?q=first%20it 200 155 - 3.177 ms
+GET /api/orders/searchItem?q=first%20i 200 155 - 3.674 ms
+GET /api/orders/searchItem?q=first 200 155 - 4.116 ms
+GET /api/orders/searchItem?q=first 304  - 4.994 ms
+GET /api/orders/searchItem?q=firs 200 155 - 3.487 ms
+GET /api/orders/searchItem?q=fir 304  - 3.618 ms
+GET /api/orders/searchItem?q=fi 304  - 3.653 ms
+GET /api/orders/searchItem?q=f 304  - 3.170 ms
+GET /api/orders/searchItem?q= 304  - 4.917 ms
+GET /api/orders/searchItem?q=s 304  - 3.842 ms
+GET /api/orders 304  - 11.543 ms
+GET /api/customers 304  - 8.772 ms
+GET /api/delivery-vehicles 304  - 4.957 ms
+GET /api/orders 304  - 7.520 ms
+GET /api/customers 304  - 4.937 ms
+GET /api/delivery-vehicles 304  - 5.207 ms
+GET /api/orders/searchItem?q=h 200 2 - 2.668 ms
+GET /api/orders/searchItem?q= 304  - 6.818 ms
+GET /api/orders/searchItem?q=s 304  - 4.317 ms
+GET /api/orders/searchItem?q= 304  - 2.902 ms
+GET /api/orders/searchItem?q=h 304  - 4.587 ms
+GET /api/orders/searchItem?q= 304  - 3.389 ms
+GET /api/orders/searchItem?q=a 200 2 - 3.111 ms
+GET /api/orders/searchItem?q= 304  - 4.005 ms
+GET /api/orders/searchItem?q=s 304  - 4.821 ms
+GET /api/orders 304  - 18.746 ms
+GET /api/delivery-vehicles 304  - 14.085 ms
+GET /api/customers 304  - 8.788 ms
+GET /api/orders/searchVehicle?q=r 304  - 5.477 ms
+GET /api/orders/searchVehicle?q=ra 304  - 3.563 ms
+GET /api/orders/searchVehicle?q=raj 304  - 5.384 ms
+GET /api/orders/searchVehicle?q=rajk 200 209 - 5.369 ms
+GET /api/orders/searchVehicle?q=rajko 200 209 - 3.787 ms
+GET /api/orders 304  - 13.987 ms
+GET /api/customers 304  - 9.733 ms
+GET /api/delivery-vehicles 304  - 6.431 ms
+GET /api/orders 304  - 13.610 ms
+GET /api/customers 304  - 8.145 ms
+GET /api/delivery-vehicles 304  - 4.858 ms
+GET /api/orders 304  - 27.700 ms
+GET /api/customers 304  - 17.892 ms
+GET /api/delivery-vehicles 304  - 14.786 ms
+GET /api/orders/searchVehicle?q=r 304  - 5.767 ms
+GET /api/orders/searchVehicle?q=ra 304  - 6.690 ms
+GET /api/orders/searchItem?q=f 304  - 3.601 ms
+GET /api/orders/searchCustomer?q=m 200 321 - 5.127 ms
+GET /api/orders 304  - 13.283 ms
+GET /api/customers 304  - 10.321 ms
+GET /api/delivery-vehicles 304  - 8.518 ms
+GET /api/orders/searchCustomer?q=m 304  - 3.705 ms
+GET /api/orders/searchCustomer?q=me 200 321 - 3.429 ms
+GET /api/orders/searchVehicle?q=r 304  - 3.629 ms
+GET /api/orders/searchVehicle?q=ra 304  - 3.042 ms
+GET /api/orders/searchItem?q=f 304  - 4.850 ms
+GET /api/orders 304  - 13.921 ms
+GET /api/customers 304  - 9.355 ms
+GET /api/delivery-vehicles 304  - 6.672 ms
+GET /api/orders 304  - 8.624 ms
+GET /api/customers 304  - 6.349 ms
+GET /api/delivery-vehicles 304  - 4.766 ms
+GET /api/orders 304  - 13.101 ms
+GET /api/delivery-vehicles 304  - 10.156 ms
+GET /api/customers 304  - 7.120 ms
+GET /api/orders/searchVehicle?q=r 304  - 3.208 ms
+GET /api/orders/searchVehicle?q=ra 304  - 3.924 ms
+GET /api/orders/searchItem?q=s 304  - 5.197 ms
+GET /api/orders/searchCustomer?q=r 200 162 - 3.382 ms
+GET /api/orders/searchVehicle?q=123-truc 200 2 - 3.225 ms
+GET /api/orders/searchVehicle?q=123-tru 200 2 - 2.479 ms
+GET /api/orders/searchVehicle?q=123-tr 200 2 - 3.072 ms
+GET /api/orders/searchVehicle?q=123-t 200 2 - 2.576 ms
+GET /api/orders/searchVehicle?q=123- 200 2 - 2.451 ms
+GET /api/orders/searchVehicle?q=123 200 2 - 3.819 ms
+GET /api/orders/searchVehicle?q=12 200 2 - 3.745 ms
+GET /api/orders/searchVehicle?q=1 200 2 - 2.822 ms
+GET /api/orders/searchVehicle?q= 304  - 4.093 ms
+GET /api/orders/searchVehicle?q=r 304  - 3.714 ms
+GET /api/orders/searchVehicle?q=ra 304  - 3.426 ms
+GET /api/orders/searchItem?q=first%20ite 304  - 3.265 ms
+GET /api/orders/searchItem?q=first%20it 304  - 3.370 ms
+GET /api/orders/searchItem?q=first%20i 304  - 2.602 ms
+GET /api/orders/searchItem?q=first 304  - 2.796 ms
+GET /api/orders/searchItem?q=first 304  - 5.755 ms
+GET /api/orders/searchItem?q=firs 304  - 3.080 ms
+GET /api/orders/searchItem?q=fir 304  - 3.568 ms
+GET /api/orders/searchItem?q=fi 304  - 2.811 ms
+GET /api/orders/searchItem?q=f 304  - 3.418 ms
+GET /api/orders/searchItem?q= 304  - 3.496 ms
+GET /api/orders/searchItem?q=f 304  - 5.060 ms
+GET /api/orders 304  - 8.200 ms
+GET /api/customers 304  - 6.293 ms
+GET /api/delivery-vehicles 304  - 4.859 ms
+GET /api/orders 304  - 12.787 ms
+GET /api/customers 304  - 8.383 ms
+GET /api/delivery-vehicles 304  - 5.237 ms
+GET /api/orders 304  - 17.173 ms
+GET /api/customers 304  - 14.198 ms
+GET /api/delivery-vehicles 304  - 9.800 ms
+GET /api/orders 304  - 11.926 ms
+GET /api/customers 304  - 8.628 ms
+GET /api/delivery-vehicles 304  - 7.403 ms
+GET /api/orders 304  - 6.935 ms
+GET /api/customers 304  - 5.181 ms
+GET /api/delivery-vehicles 304  - 3.474 ms
+GET /api/orders 304  - 11.735 ms
+GET /api/customers 304  - 9.279 ms
+GET /api/delivery-vehicles 304  - 6.990 ms
+GET /api/orders 304  - 13.465 ms
+GET /api/customers 304  - 10.349 ms
+GET /api/delivery-vehicles 304  - 6.313 ms
+GET /api/orders 304  - 7.886 ms
+GET /api/customers 304  - 5.285 ms
+GET /api/delivery-vehicles 304  - 3.814 ms
+GET /api/orders 304  - 15.523 ms
+GET /api/customers 304  - 12.165 ms
+GET /api/delivery-vehicles 304  - 8.828 ms
+GET /api/orders 304  - 14.018 ms
+GET /api/customers 304  - 12.006 ms
+GET /api/delivery-vehicles 304  - 9.688 ms
+GET /api/orders 304  - 12.290 ms
+GET /api/customers 304  - 9.605 ms
+GET /api/delivery-vehicles 304  - 5.851 ms
+GET /api/orders 304  - 14.127 ms
+GET /api/customers 304  - 11.180 ms
+GET /api/delivery-vehicles 304  - 8.314 ms
+GET /api/orders 304  - 12.939 ms
+GET /api/customers 304  - 9.351 ms
+GET /api/delivery-vehicles 304  - 5.395 ms
+GET /api/orders/searchVehicle?q=r 304  - 3.683 ms
+GET /api/orders/searchVehicle?q= 304  - 3.376 ms
+GET /api/delivery-vehicles 304  - 16.765 ms
+GET /api/delivery-vehicles 304  - 6.528 ms
+GET /api/delivery-vehicles 304  - 6.039 ms
+GET /api/delivery-vehicles 304  - 4.135 ms
+GET /api/delivery-vehicles 304  - 8.008 ms
+GET /api/delivery-vehicles 304  - 3.836 ms
+POST /api/delivery-vehicles 201 218 - 20.402 ms
+GET /api/delivery-vehicles 200 646 - 3.925 ms
+GET /api/orders/searchVehicle?q=r 200 646 - 11.499 ms
+GET /api/orders/searchVehicle?q=ra 200 428 - 5.459 ms
+GET /api/delivery-vehicles 304  - 4.820 ms
+GET /api/delivery-vehicles 304  - 4.430 ms
+GET /api/orders/searchVehicle?q=r 304  - 27.665 ms
+GET /api/orders/searchVehicle?q=ra 304  - 6.929 ms
+GET /api/orders/searchVehicle?q=raj 200 428 - 7.010 ms
+GET /api/orders/searchVehicle?q=rajk 200 428 - 9.263 ms
+GET /api/delivery-vehicles 304  - 5.888 ms
+GET /api/delivery-vehicles 304  - 7.620 ms
+GET /api/delivery-vehicles 304  - 3.845 ms
+GET /api/delivery-vehicles 304  - 7.594 ms
+POST /api/users/login 200 224 - 24.235 ms
+GET /api/items 304  - 4.487 ms
+GET /api/delivery-vehicles 304  - 10.382 ms
+GET /api/orders/searchVehicle?q=r 304  - 5.568 ms
+GET /api/delivery-vehicles/findOne?q=123 500 119 - 4.169 ms
+GET /api/delivery-vehicles 304  - 10.018 ms
+GET /api/delivery-vehicles/findOne?q=123 500 119 - 4.825 ms
+GET /api/delivery-vehicles 304  - 13.445 ms
+POST /api/users/login 200 224 - 5.603 ms
+GET /api/delivery-vehicles/findOne?q= 500 119 - 2.537 ms
+GET /api/delivery-vehicles 304  - 5.684 ms
+GET /api/delivery-vehicles/findOne?q= 500 119 - 4.712 ms
+GET /api/delivery-vehicles 304  - 12.045 ms
+GET /api/orders/searchVehicle?q=r 304  - 8.382 ms
+GET /api/orders/searchVehicle?q=ra 304  - 3.499 ms
+GET /api/delivery-vehicles/findOne?q=123 500 119 - 3.417 ms
+GET /api/delivery-vehicles 304  - 10.544 ms
+GET /api/orders/searchVehicle?q=123-truc 304  - 13.074 ms
+GET /api/orders/searchVehicle?q=123-tru 304  - 3.373 ms
+GET /api/orders/searchVehicle?q=123-tr 304  - 3.158 ms
+GET /api/orders/searchVehicle?q=123-t 304  - 3.330 ms
+GET /api/orders/searchVehicle?q=123- 304  - 3.986 ms
+GET /api/orders/searchVehicle?q=123 304  - 2.849 ms
+GET /api/orders/searchVehicle?q=12 304  - 4.679 ms
+GET /api/orders/searchVehicle?q=1 304  - 4.443 ms
+GET /api/orders/searchVehicle?q= 200 646 - 7.114 ms
+GET /api/orders/searchVehicle?q=b 200 219 - 3.435 ms
+GET /api/orders/searchVehicle?q=bh 200 219 - 4.273 ms
+GET /api/orders/searchVehicle?q=gj05ab5050-truc 200 2 - 11.370 ms
+GET /api/orders/searchVehicle?q=gj05ab5050-tru 200 2 - 5.809 ms
+GET /api/orders/searchVehicle?q=gj05ab5050-tr 200 2 - 3.563 ms
+GET /api/orders/searchVehicle?q=gj05ab5050-t 200 2 - 3.452 ms
+GET /api/orders/searchVehicle?q=gj05ab5050- 200 2 - 3.424 ms
+GET /api/orders/searchVehicle?q=gj05ab5050 200 2 - 5.139 ms
+GET /api/orders/searchVehicle?q=gj05ab505 200 2 - 4.325 ms
+GET /api/orders/searchVehicle?q=gj05ab50 200 2 - 3.491 ms
+GET /api/orders/searchVehicle?q=gj05ab5 200 2 - 3.716 ms
+GET /api/orders/searchVehicle?q=gj05ab 200 2 - 4.444 ms
+GET /api/orders/searchVehicle?q=gj05a 200 2 - 4.705 ms
+GET /api/orders/searchVehicle?q=gj05 200 2 - 4.961 ms
+GET /api/orders/searchVehicle?q=gj0 200 2 - 3.593 ms
+GET /api/orders/searchVehicle?q=gj 200 2 - 9.887 ms
+GET /api/orders/searchVehicle?q=g 200 219 - 12.908 ms
+GET /api/orders/searchVehicle?q= 304  - 5.572 ms
+GET /api/orders/searchVehicle?q=123-truc 304  - 12.590 ms
+GET /api/orders/searchVehicle?q=123-tru 304  - 3.407 ms
+GET /api/orders/searchVehicle?q=123-tr 304  - 3.270 ms
+GET /api/orders/searchVehicle?q=123-t 304  - 2.858 ms
+GET /api/orders/searchVehicle?q=123- 304  - 3.751 ms
+GET /api/orders/searchVehicle?q=123 304  - 2.974 ms
+GET /api/orders/searchVehicle?q=12 304  - 2.986 ms
+GET /api/orders/searchVehicle?q=1 304  - 3.542 ms
+GET /api/orders/searchVehicle?q= 304  - 5.381 ms
+GET /api/orders/searchVehicle?q=b 304  - 3.049 ms
+GET /api/orders/searchVehicle?q=bh 304  - 3.579 ms
+GET /api/delivery-vehicles 304  - 25.742 ms
+GET /api/delivery-vehicles/findOne?q=gj05ab5050 200 4 - 13.851 ms
+GET /api/delivery-vehicles 304  - 12.106 ms
+GET /api/delivery-vehicles/findOne?q= 200 4 - 9.555 ms
+GET /api/delivery-vehicles 304  - 10.306 ms
+GET /api/delivery-vehicles/findOne?q= 304  - 6.268 ms
+GET /api/orders/searchVehicle?q=r 304  - 3.616 ms
+GET /api/orders/searchVehicle?q=ra 304  - 3.768 ms
+GET /api/delivery-vehicles/findOne?q=123 200 4 - 3.219 ms
+GET /api/orders/searchVehicle?q=123-truc 304  - 11.535 ms
+GET /api/orders/searchVehicle?q=123-tru 304  - 4.536 ms
+GET /api/orders/searchVehicle?q=123-tr 304  - 2.926 ms
+GET /api/orders/searchVehicle?q=123-t 304  - 3.096 ms
+GET /api/orders/searchVehicle?q=123- 304  - 3.122 ms
+GET /api/orders/searchVehicle?q=123 304  - 2.939 ms
+GET /api/orders/searchVehicle?q=12 304  - 2.914 ms
+GET /api/orders/searchVehicle?q=1 304  - 2.852 ms
+GET /api/orders/searchVehicle?q= 304  - 5.883 ms
+GET /api/orders/searchVehicle?q=r 304  - 3.675 ms
+GET /api/orders/searchVehicle?q=ra 304  - 3.484 ms
+GET /api/orders/searchVehicle?q=123-truc 304  - 11.853 ms
+GET /api/orders/searchVehicle?q=123-tru 304  - 3.751 ms
+GET /api/orders/searchVehicle?q=123-tr 304  - 2.911 ms
+GET /api/orders/searchVehicle?q=123-t 304  - 3.464 ms
+GET /api/orders/searchVehicle?q=123- 304  - 3.266 ms
+GET /api/orders/searchVehicle?q=123 304  - 3.031 ms
+GET /api/orders/searchVehicle?q=12 304  - 2.932 ms
+GET /api/orders/searchVehicle?q=1 304  - 3.021 ms
+GET /api/orders/searchVehicle?q= 304  - 6.083 ms
+GET /api/orders/searchVehicle?q=r 304  - 4.170 ms
+GET /api/orders/searchVehicle?q=ra 304  - 3.844 ms
+GET /api/orders/searchVehicle?q=raj 304  - 3.696 ms
+GET /api/orders/searchVehicle?q=rajk 304  - 4.639 ms
+GET /api/delivery-vehicles 304  - 36.085 ms
+GET /api//delivery-vehicles/findOne?q=123 200 4 - 17.816 ms
+GET /api/orders/searchVehicle?q=123-truc 304  - 4.885 ms
+GET /api/orders/searchVehicle?q=123-tru 304  - 3.203 ms
+GET /api/orders/searchVehicle?q=123-tr 304  - 3.842 ms
+GET /api/orders/searchVehicle?q=123-t 304  - 2.706 ms
+GET /api/orders/searchVehicle?q=123- 304  - 2.881 ms
+GET /api/orders/searchVehicle?q=123 304  - 2.741 ms
+GET /api/orders/searchVehicle?q=12 304  - 3.271 ms
+GET /api/orders/searchVehicle?q=1 304  - 3.969 ms
+GET /api/orders/searchVehicle?q= 304  - 3.395 ms
+GET /api//delivery-vehicles/findOne?q=GJ03AB9999 200 4 - 5.008 ms
+GET /api/delivery-vehicles 304  - 9.034 ms
+GET /api/delivery-vehicles/findOne?q=GJ03AB9999 200 4 - 6.613 ms
+GET /api/orders/searchVehicle?q=gj03ab9999-containe 200 2 - 4.537 ms
+GET /api/orders/searchVehicle?q=gj03ab9999-contain 200 2 - 3.734 ms
+GET /api/orders/searchVehicle?q=gj03ab9999-contai 200 2 - 3.309 ms
+GET /api/orders/searchVehicle?q=gj03ab9999-conta 200 2 - 2.473 ms
+GET /api/orders/searchVehicle?q=gj03ab9999-cont 200 2 - 2.874 ms
+GET /api/orders/searchVehicle?q=gj03ab9999-con 200 2 - 2.789 ms
+GET /api/orders/searchVehicle?q=gj03ab9999-co 200 2 - 2.619 ms
+GET /api/orders/searchVehicle?q=gj03ab9999-c 200 2 - 2.632 ms
+GET /api/orders/searchVehicle?q=gj03ab9999- 200 2 - 2.811 ms
+GET /api/orders/searchVehicle?q=gj03ab9999 200 2 - 3.309 ms
+GET /api/orders/searchVehicle?q=gj03ab999 200 2 - 3.131 ms
+GET /api/orders/searchVehicle?q=gj03ab99 200 2 - 3.341 ms
+GET /api/orders/searchVehicle?q=gj03ab9 200 2 - 2.490 ms
+GET /api/orders/searchVehicle?q=gj03ab 200 2 - 2.585 ms
+GET /api/orders/searchVehicle?q=gj03a 200 2 - 3.371 ms
+GET /api/orders/searchVehicle?q=gj03 200 2 - 2.729 ms
+GET /api/orders/searchVehicle?q=gj0 304  - 2.597 ms
+GET /api/orders/searchVehicle?q=gj 304  - 2.655 ms
+GET /api/orders/searchVehicle?q=g 304  - 3.149 ms
+GET /api/orders/searchVehicle?q= 304  - 3.512 ms
+GET /api/delivery-vehicles/findOne?q=123 304  - 3.567 ms
+GET /api/orders/searchVehicle?q=123-truc 304  - 3.829 ms
+GET /api/orders/searchVehicle?q=123-tru 304  - 3.032 ms
+GET /api/orders/searchVehicle?q=123-tr 304  - 3.483 ms
+GET /api/orders/searchVehicle?q=123-t 304  - 2.582 ms
+GET /api/orders/searchVehicle?q=123- 304  - 2.724 ms
+GET /api/orders/searchVehicle?q=123 304  - 2.985 ms
+GET /api/orders/searchVehicle?q=12 304  - 2.793 ms
+GET /api/orders/searchVehicle?q=1 304  - 2.594 ms
+GET /api/orders/searchVehicle?q= 304  - 3.633 ms
+GET /api/orders/searchVehicle?q=b 304  - 3.482 ms
+GET /api/orders/searchVehicle?q=bh 304  - 3.040 ms
+GET /api/delivery-vehicles/findOne?q=gj05ab5050 304  - 3.728 ms
+GET /api/orders/searchVehicle?q=gj05ab5050-truc 304  - 3.166 ms
+GET /api/orders/searchVehicle?q=gj05ab5050-tru 304  - 2.890 ms
+GET /api/orders/searchVehicle?q=gj05ab5050-tr 304  - 3.013 ms
+GET /api/orders/searchVehicle?q=gj05ab5050-t 304  - 3.071 ms
+GET /api/orders/searchVehicle?q=gj05ab5050- 304  - 4.111 ms
+GET /api/orders/searchVehicle?q=gj05ab5050 304  - 6.330 ms
+GET /api/orders/searchVehicle?q=gj05ab505 304  - 3.059 ms
+GET /api/orders/searchVehicle?q=gj05ab50 304  - 3.030 ms
+GET /api/orders/searchVehicle?q=gj05ab5 304  - 3.418 ms
+GET /api/orders/searchVehicle?q=gj05ab 304  - 3.977 ms
+GET /api/orders/searchVehicle?q=gj05a 304  - 2.716 ms
+GET /api/orders/searchVehicle?q=gj05 304  - 3.408 ms
+GET /api/orders/searchVehicle?q=gj0 304  - 2.705 ms
+GET /api/orders/searchVehicle?q=gj 304  - 5.049 ms
+GET /api/orders/searchVehicle?q=g 304  - 9.437 ms
+GET /api/orders/searchVehicle?q= 304  - 5.748 ms
+GET /api/orders/searchVehicle?q=r 304  - 2.878 ms
+GET /api/orders/searchVehicle?q=ra 304  - 3.603 ms
+GET /api/orders/searchVehicle?q=raj 304  - 4.853 ms
+GET /api/delivery-vehicles/findOne?q=GJ03AB9999 304  - 4.119 ms
+GET /api/delivery-vehicles 304  - 27.928 ms
+GET /api/delivery-vehicles/findOne?q=GJ03AB9999 304  - 14.945 ms
+GET /api/delivery-vehicles 304  - 9.761 ms
+GET /api/delivery-vehicles/findOne?q= 304  - 7.790 ms
+GET /api/orders/searchVehicle?q=r 304  - 3.786 ms
+GET /api/orders/searchVehicle?q=ra 304  - 2.970 ms
+GET /api/delivery-vehicles/findOne?q=GJ03AB9999 304  - 3.936 ms
+GET /api/delivery-vehicles 304  - 11.874 ms
+GET /api/delivery-vehicles/findOne?q=GJ03AB9999 304  - 8.935 ms
+GET /api/orders/searchVehicle?q=gj03ab9999-containe 304  - 3.617 ms
+GET /api/orders/searchVehicle?q=gj03ab9999-contain 304  - 6.431 ms
+GET /api/orders/searchVehicle?q=gj03ab9999-contai 304  - 4.817 ms
+GET /api/orders/searchVehicle?q=gj03ab9999-conta 304  - 3.706 ms
+GET /api/orders/searchVehicle?q=gj03ab9999-cont 304  - 3.254 ms
+GET /api/orders/searchVehicle?q=gj03ab9999-con 304  - 3.388 ms
+GET /api/orders/searchVehicle?q=gj03ab9999-co 304  - 3.045 ms
+GET /api/orders/searchVehicle?q=gj03ab9999-c 304  - 3.333 ms
+GET /api/orders/searchVehicle?q=gj03ab9999- 304  - 3.131 ms
+GET /api/orders/searchVehicle?q=gj03ab9999 304  - 3.422 ms
+GET /api/orders/searchVehicle?q=gj03ab999 304  - 3.192 ms
+GET /api/orders/searchVehicle?q=gj03ab99 304  - 3.086 ms
+GET /api/orders/searchVehicle?q=gj03ab9 304  - 3.175 ms
+GET /api/orders/searchVehicle?q=gj03ab 304  - 3.518 ms
+GET /api/orders/searchVehicle?q=gj03a 304  - 3.058 ms
+GET /api/orders/searchVehicle?q=gj03 304  - 3.293 ms
+GET /api/orders/searchVehicle?q=gj0 304  - 2.931 ms
+GET /api/orders/searchVehicle?q=gj 304  - 3.537 ms
+GET /api/orders/searchVehicle?q=g 304  - 2.813 ms
+GET /api/orders/searchVehicle?q= 304  - 3.392 ms
+GET /api/delivery-vehicles/findOne?q=gj05ab5050 200 217 - 8.119 ms
+GET /api/orders/searchVehicle?q= 304  - 3.691 ms
+GET /api/delivery-vehicles/findOne?q=123 200 207 - 3.899 ms
+GET /api/orders/searchVehicle?q= 304  - 3.924 ms
+GET /api/delivery-vehicles/findOne?q=GJ03AB9999 304  - 3.889 ms
+GET /api/orders/searchVehicle?q= 304  - 3.516 ms
+GET /api/orders/searchVehicle?q=gj03ab9999-containe 304  - 11.963 ms
+GET /api/orders/searchVehicle?q=gj03ab9999-contain 304  - 4.419 ms
+GET /api/orders/searchVehicle?q=gj03ab9999-contai 304  - 4.850 ms
+GET /api/orders/searchVehicle?q=gj03ab9999-conta 304  - 3.111 ms
+GET /api/orders/searchVehicle?q=gj03ab9999-cont 304  - 3.444 ms
+GET /api/orders/searchVehicle?q=gj03ab9999-con 304  - 2.729 ms
+GET /api/orders/searchVehicle?q=gj03ab9999-co 304  - 2.841 ms
+GET /api/orders/searchVehicle?q=gj03ab9999-c 304  - 2.669 ms
+GET /api/orders/searchVehicle?q=gj03ab9999- 304  - 2.973 ms
+GET /api/orders/searchVehicle?q=gj03ab9999 304  - 3.465 ms
+GET /api/orders/searchVehicle?q=gj03ab999 304  - 3.491 ms
+GET /api/orders/searchVehicle?q=gj03ab99 304  - 4.084 ms
+GET /api/orders/searchVehicle?q=gj03ab9 304  - 3.109 ms
+GET /api/orders/searchVehicle?q=gj03ab 304  - 2.587 ms
+GET /api/orders/searchVehicle?q=gj03a 304  - 2.955 ms
+GET /api/orders/searchVehicle?q=gj03 304  - 2.883 ms
+GET /api/orders/searchVehicle?q=gj0 304  - 2.987 ms
+GET /api/orders/searchVehicle?q=gj 304  - 3.302 ms
+GET /api/orders/searchVehicle?q=g 304  - 5.162 ms
+GET /api/orders/searchVehicle?q= 304  - 5.142 ms
+GET /api/orders/searchVehicle?q=gj03ab9999-containe 304  - 11.723 ms
+GET /api/orders/searchVehicle?q=gj03ab9999-contain 304  - 4.006 ms
+GET /api/orders/searchVehicle?q=gj03ab9999-contai 304  - 3.017 ms
+GET /api/orders/searchVehicle?q=gj03ab9999-conta 304  - 3.229 ms
+GET /api/orders/searchVehicle?q=gj03ab9999-cont 304  - 3.665 ms
+GET /api/orders/searchVehicle?q=gj03ab9999-con 304  - 3.253 ms
+GET /api/orders/searchVehicle?q=gj03ab9999-co 304  - 3.436 ms
+GET /api/orders/searchVehicle?q=gj03ab9999-c 304  - 3.457 ms
+GET /api/orders/searchVehicle?q=gj03ab9999- 304  - 4.190 ms
+GET /api/orders/searchVehicle?q=gj03ab9999 304  - 4.122 ms
+GET /api/orders/searchVehicle?q=gj03ab999 304  - 3.373 ms
+GET /api/orders/searchVehicle?q=gj03ab99 304  - 4.105 ms
+GET /api/orders/searchVehicle?q=gj03ab9 304  - 3.115 ms
+GET /api/orders/searchVehicle?q=gj03ab 304  - 2.945 ms
+GET /api/orders/searchVehicle?q=gj03a 304  - 3.348 ms
+GET /api/orders/searchVehicle?q=gj03 304  - 2.910 ms
+GET /api/orders/searchVehicle?q=gj0 304  - 3.118 ms
+GET /api/orders/searchVehicle?q=gj 304  - 3.337 ms
+GET /api/orders/searchVehicle?q=g 304  - 6.436 ms
+GET /api/orders/searchVehicle?q= 304  - 4.835 ms
+GET /api/orders/searchVehicle?q=r 304  - 14.218 ms
+GET /api/orders/searchVehicle?q=ra 304  - 4.128 ms
+GET /api/delivery-vehicles/findOne?q=123 304  - 4.953 ms
+GET /api/orders/searchVehicle?q= 304  - 6.468 ms
+GET /api/orders/searchVehicle?q=r 304  - 5.479 ms
+GET /api/orders/searchVehicle?q=ra 304  - 7.746 ms
+GET /api/delivery-vehicles/findOne?q=GJ03AB9999 200 218 - 4.524 ms
+GET /api/orders/searchVehicle?q= 304  - 3.786 ms
+GET /api/orders/searchVehicle?q=b 304  - 5.276 ms
+GET /api/orders/searchVehicle?q=bh 304  - 4.305 ms
+GET /api/delivery-vehicles/findOne?q=gj05ab5050 304  - 4.786 ms
+GET /api/delivery-vehicles 304  - 10.543 ms
+GET /api/delivery-vehicles/findOne?q= 304  - 8.036 ms
+GET /api/delivery-vehicles 304  - 9.447 ms
+GET /api/delivery-vehicles/findOne?q= 304  - 5.989 ms
+GET /api/delivery-vehicles 304  - 9.010 ms
+GET /api/delivery-vehicles/findOne?q= 304  - 5.483 ms
+POST /api/delivery-vehicles 201 218 - 9.835 ms
+GET /api/orders/searchVehicle?q=a 200 865 - 10.109 ms
+GET /api/orders/searchVehicle?q=ah 200 220 - 2.850 ms
+GET /api/delivery-vehicles/findOne?q=GJ01DD8776 200 218 - 9.366 ms
+GET /api/delivery-vehicles 200 865 - 6.906 ms
+GET /api/delivery-vehicles/findOne?q=GJ01DD8776 304  - 3.971 ms
+GET /api/delivery-vehicles 304  - 8.732 ms
+GET /api/delivery-vehicles/findOne?q=GJ01DD8776 304  - 6.571 ms
+GET /api/items 304  - 4.777 ms
+GET /api/orders 304  - 11.710 ms
+GET /api/customers 304  - 9.621 ms
+GET /api/delivery-vehicles 304  - 6.635 ms
+PATCH /api/orders/66215d84eb655f2b68643f51/delivered 200 296 - 13.616 ms
+GET /api/orders/searchVehicle?q=a 200 865 - 4.256 ms
+GET /api/orders/searchVehicle?q=ah 304  - 3.751 ms
+GET /api/orders/searchVehicle?q=a 304  - 5.363 ms
+GET /api/orders/searchVehicle?q= 200 865 - 6.578 ms
+GET /api/orders/searchVehicle?q=r 200 646 - 4.031 ms
+GET /api/orders/searchVehicle?q=ra 200 428 - 5.047 ms
+GET /api/orders/searchVehicle?q=raj 200 428 - 9.303 ms
+GET /api/orders/searchItem?q=f 304  - 5.393 ms
+GET /api/orders/searchItem?q= 304  - 3.938 ms
+GET /api/orders/searchItem?q=s 304  - 4.606 ms
+GET /api/orders/searchCustomer?q=m 304  - 3.305 ms
+GET /api/orders/searchCustomer?q=me 304  - 3.603 ms
+GET /api/orders 200 1191 - 8.277 ms
+GET /api/customers 304  - 6.574 ms
+GET /api/delivery-vehicles 200 865 - 5.871 ms
+POST /api/orders 500 114 - 2.415 ms
+POST /api/orders 500 114 - 2.701 ms
+POST /api/orders 500 114 - 2.035 ms
+POST /api/orders 500 114 - 2.446 ms
+GET /api/orders 304  - 11.189 ms
+GET /api/customers 304  - 7.764 ms
+GET /api/delivery-vehicles 304  - 6.489 ms
+GET /api/orders 304  - 9.083 ms
+GET /api/customers 304  - 7.088 ms
+GET /api/delivery-vehicles 304  - 5.258 ms
+GET /api/orders/searchCustomer?q=m 304  - 12.604 ms
+GET /api/orders/searchCustomer?q=me 304  - 4.949 ms
+GET /api/orders/searchCustomer?q=mee 200 160 - 3.573 ms
+POST /api/orders 500 101 - 22.722 ms
+GET /api/orders/searchVehicle?q=r 304  - 7.086 ms
+GET /api/orders/searchVehicle?q=ra 304  - 5.335 ms
+GET /api/orders/searchVehicle?q=raj 304  - 6.600 ms
+GET /api/orders/searchItem?q=f 304  - 4.504 ms
+POST /api/orders 500 111 - 7.344 ms
+POST /api/orders 500 160 - 22.744 ms
+POST /api/orders 201 297 - 29.797 ms
+GET /api/orders 200 1489 - 24.421 ms
+GET /api/customers 304  - 11.254 ms
+GET /api/delivery-vehicles 200 865 - 8.781 ms
+GET /api/orders 304  - 12.369 ms
+GET /api/customers 304  - 8.516 ms
+GET /api/delivery-vehicles 304  - 7.862 ms
+GET /api/orders 304  - 8.374 ms
+GET /api/customers 304  - 10.386 ms
+GET /api/delivery-vehicles 304  - 7.060 ms
+GET /api/orders 304  - 12.282 ms
+GET /api/customers 304  - 10.078 ms
+GET /api/delivery-vehicles 304  - 8.770 ms
+GET /api/orders/searchCustomer?q=meet%20bhai%20-%20bhavnaga 200 2 - 2.760 ms
+GET /api/orders/searchCustomer?q=meet%20bhai%20-%20bhavnag 200 2 - 4.399 ms
+GET /api/orders/searchCustomer?q=meet%20bhai%20-%20bhavna 200 2 - 6.625 ms
+GET /api/orders/searchCustomer?q=meet%20bhai%20-%20bhavn 200 2 - 5.656 ms
+GET /api/orders/searchCustomer?q=meet%20bhai%20-%20bhav 200 2 - 3.737 ms
+GET /api/orders/searchCustomer?q=meet%20bhai%20-%20bha 200 2 - 3.469 ms
+GET /api/orders/searchCustomer?q=meet%20bhai%20-%20bh 200 2 - 3.687 ms
+GET /api/orders/searchCustomer?q=meet%20bhai%20-%20b 200 2 - 3.579 ms
+GET /api/orders/searchCustomer?q=meet%20bhai%20- 200 2 - 4.822 ms
+GET /api/orders/searchCustomer?q=meet%20bhai%20- 304  - 3.692 ms
+GET /api/orders/searchCustomer?q=meet%20bhai 200 160 - 3.529 ms
+GET /api/orders/searchCustomer?q=meet%20bhai 304  - 5.345 ms
+GET /api/orders/searchCustomer?q=meet%20bha 200 160 - 5.829 ms
+GET /api/orders/searchCustomer?q=meet%20bh 200 160 - 3.181 ms
+GET /api/orders/searchCustomer?q=meet%20b 200 160 - 3.074 ms
+GET /api/orders/searchCustomer?q=meet 200 160 - 3.268 ms
+GET /api/orders/searchCustomer?q=meet 304  - 4.054 ms
+GET /api/orders/searchCustomer?q=mee 304  - 8.062 ms
+GET /api/orders/searchCustomer?q=me 304  - 8.493 ms
+GET /api/orders/searchCustomer?q=m 304  - 5.247 ms
+GET /api/orders/searchCustomer?q= 200 321 - 9.373 ms
+POST /api/orders 201 297 - 16.055 ms
+GET /api/orders 200 1787 - 13.600 ms
+GET /api/customers 304  - 11.123 ms
+GET /api/delivery-vehicles 200 865 - 10.319 ms
+POST /api/orders 500 60 - 8.921 ms
+GET /api/orders/searchItem?q=first%20item%20-%20500 200 2 - 2.580 ms
+GET /api/orders/searchItem?q=first%20item%20-%2050 200 2 - 6.250 ms
+GET /api/orders/searchItem?q=first%20item%20-%205 200 2 - 3.012 ms
+GET /api/orders/searchItem?q=first%20item%20- 200 2 - 3.204 ms
+GET /api/orders/searchItem?q=first%20item%20- 304  - 2.761 ms
+GET /api/orders/searchItem?q=first%20item 200 155 - 3.145 ms
+GET /api/orders/searchItem?q=first%20item 304  - 3.598 ms
+GET /api/orders/searchItem?q=first%20ite 304  - 2.845 ms
+GET /api/orders/searchItem?q=first%20it 304  - 3.557 ms
+GET /api/orders/searchItem?q=first%20i 304  - 3.559 ms
+GET /api/orders/searchItem?q=first 304  - 3.206 ms
+GET /api/orders/searchItem?q=first 304  - 2.681 ms
+GET /api/orders/searchItem?q=firs 304  - 2.943 ms
+GET /api/orders/searchItem?q=fir 304  - 3.766 ms
+GET /api/orders/searchItem?q=fi 304  - 3.137 ms
+GET /api/orders/searchItem?q=f 304  - 4.220 ms
+GET /api/orders/searchItem?q=fs 200 2 - 4.137 ms
+GET /api/orders/searchItem?q=f 304  - 4.537 ms
+GET /api/orders/searchItem?q= 304  - 5.954 ms
+GET /api/orders/searchItem?q=s 304  - 3.554 ms
+POST /api/orders 500 60 - 6.825 ms
+GET /api/orders/searchVehicle?q=gj03ab9999-containe 304  - 3.322 ms
+GET /api/orders/searchVehicle?q=gj03ab9999-contain 304  - 3.568 ms
+GET /api/orders/searchVehicle?q=gj03ab9999-contai 304  - 2.738 ms
+GET /api/orders/searchVehicle?q=gj03ab9999-conta 304  - 2.707 ms
+GET /api/orders/searchVehicle?q=gj03ab9999-cont 304  - 4.584 ms
+GET /api/orders/searchVehicle?q=gj03ab9999-con 304  - 3.016 ms
+GET /api/orders/searchVehicle?q=gj03ab9999-co 304  - 3.906 ms
+GET /api/orders/searchVehicle?q=gj03ab9999-c 304  - 3.559 ms
+GET /api/orders/searchVehicle?q=gj03ab9999- 304  - 3.444 ms
+GET /api/orders/searchVehicle?q=gj03ab9999 304  - 5.012 ms
+GET /api/orders/searchVehicle?q=gj03ab999 304  - 3.319 ms
+GET /api/orders/searchVehicle?q=gj03ab99 304  - 7.483 ms
+GET /api/orders/searchVehicle?q=gj03ab9 304  - 3.649 ms
+GET /api/orders/searchVehicle?q=gj03ab 304  - 3.956 ms
+GET /api/orders/searchVehicle?q=gj03a 304  - 4.866 ms
+GET /api/orders/searchVehicle?q=gj03 304  - 2.871 ms
+GET /api/orders/searchVehicle?q=gj0 304  - 2.754 ms
+GET /api/orders/searchVehicle?q=gj 304  - 3.396 ms
+GET /api/orders/searchVehicle?q=g 200 219 - 3.630 ms
+GET /api/orders/searchVehicle?q= 200 865 - 5.615 ms
+GET /api/orders/searchVehicle?q=r 200 646 - 6.581 ms
+GET /api/orders/searchVehicle?q=ra 200 428 - 3.397 ms
+GET /api/orders/searchVehicle?q=raj 200 428 - 3.283 ms
+GET /api/orders/searchCustomer?q= 304  - 4.965 ms
+GET /api/orders/searchCustomer?q=f 200 162 - 3.205 ms
+POST /api/orders 201 297 - 12.889 ms
+POST /api/orders 201 297 - 14.029 ms
+POST /api/orders 201 297 - 15.399 ms
+POST /api/orders 201 297 - 18.063 ms
+POST /api/orders 400 44 - 5.644 ms
+POST /api/orders 400 44 - 8.238 ms
+POST /api/orders 400 44 - 6.388 ms
+PATCH /api/orders/66218a96bc1da594d49d60af/delivered 200 296 - 11.958 ms
+PATCH /api/orders/66218a95bc1da594d49d60a8/delivered 200 296 - 7.318 ms
+PATCH /api/orders/66218a94bc1da594d49d60a1/delivered 200 296 - 8.227 ms
+GET /api/orders 200 2976 - 35.490 ms
+GET /api/customers 304  - 22.312 ms
+GET /api/delivery-vehicles 200 865 - 21.437 ms
+GET /api//orders/search?q= 200 596 - 18.808 ms
+GET /api//orders/search?q=m 200 596 - 7.816 ms
+GET /api//orders/search?q=me 200 596 - 7.210 ms
+GET /api//orders/search?q=m 304  - 10.701 ms
+GET /api//orders/search?q= 304  - 7.703 ms
+GET /api//orders/search?q=m 304  - 7.450 ms
+GET /api//orders/search?q=me 304  - 8.351 ms
+GET /api//orders/search?q=mee 200 299 - 4.813 ms
+GET /api//orders/search?q=meet 200 299 - 5.386 ms
+GET /api//orders/search?q=mee 304  - 4.499 ms
+GET /api//orders/search?q=me 304  - 6.127 ms
+GET /api/orders 304  - 17.795 ms
+GET /api/customers 304  - 13.844 ms
+GET /api/delivery-vehicles 304  - 9.894 ms
+GET /api/orders 304  - 15.776 ms
+GET /api/customers 304  - 11.091 ms
+GET /api/delivery-vehicles 304  - 8.723 ms
+GET /api//orders/search?q=a 200 299 - 4.720 ms
+GET /api//orders/search?q=m 304  - 27.844 ms
+GET /api//orders/search?q= 304  - 7.661 ms
+GET /api//orders/search?q= 304  - 14.852 ms
+GET /api//orders/search?q= 304  - 10.319 ms
+GET /api//orders/search?q=m 304  - 10.747 ms
+GET /api//orders/search?q=me 304  - 9.084 ms
+GET /api//orders/search?q=662145f39f20338a0f896a4 403 39 - 1.841 ms
+GET /api//orders/search?q=662145f39f20338a0f896a 403 39 - 1.619 ms
+GET /api//orders/search?q=662145f39f20338a0f896 403 39 - 1.035 ms
+GET /api//orders/search?q=662145f39f20338a0f89 403 39 - 1.496 ms
+GET /api//orders/search?q=662145f39f20338a0f8 403 39 - 1.301 ms
+GET /api//orders/search?q=662145f39f20338a0f 403 39 - 1.306 ms
+GET /api//orders/search?q=662145f39f20338a0 403 39 - 1.055 ms
+GET /api//orders/search?q=662145f39f20338a 403 39 - 1.034 ms
+GET /api//orders/search?q=662145f39f20338 403 39 - 1.114 ms
+GET /api//orders/search?q=662145f39f2033 403 39 - 1.198 ms
+GET /api//orders/search?q=662145f39f203 403 39 - 1.683 ms
+GET /api//orders/search?q=662145f39f20 403 39 - 1.606 ms
+GET /api//orders/search?q=662145f39f2 403 39 - 1.189 ms
+GET /api//orders/search?q=662145f39f 403 39 - 1.350 ms
+GET /api//orders/search?q=662145f39 403 39 - 0.985 ms
+GET /api//orders/search?q=662145f3 403 39 - 1.015 ms
+GET /api//orders/search?q=662145f 403 39 - 1.706 ms
+GET /api//orders/search?q=662145 403 39 - 1.722 ms
+GET /api//orders/search?q=66214 403 39 - 1.365 ms
+GET /api//orders/search?q=6621 403 39 - 1.056 ms
+GET /api//orders/search?q=662 403 39 - 1.059 ms
+GET /api//orders/search?q=66 403 39 - 1.188 ms
+GET /api//orders/search?q=6 403 39 - 1.420 ms
+GET /api//orders/search?q= 403 39 - 1.389 ms
+GET /api//orders/search?q=m 403 39 - 1.170 ms
+GET /api//orders/search?q=me 403 39 - 1.269 ms
+GET /api//orders/search?q=mee 403 39 - 0.779 ms
+GET /api//orders/search?q=meee 403 39 - 0.937 ms
+GET /api//orders/search?q=mee 403 39 - 1.524 ms
+GET /api//orders/search?q=me 403 39 - 1.985 ms
+GET /api//orders/search?q=m 403 39 - 1.509 ms
+GET /api//orders/search?q= 403 39 - 1.491 ms
+GET /api//orders/search?q=m 403 39 - 1.376 ms
+GET /api//orders/search?q=me 403 39 - 1.018 ms
+GET /api//orders/search?q=mee 403 39 - 1.634 ms
+GET /api//orders/search?q=me 403 39 - 2.339 ms
+GET /api//orders/search?q=m 403 39 - 1.082 ms
+GET /api//orders/search?q= 403 39 - 1.417 ms
+GET /api//orders/search?q=f 403 39 - 0.838 ms
+GET /api//orders/search?q=ff 403 39 - 0.932 ms
+GET /api//orders/search?q=f 403 39 - 1.625 ms
+GET /api//orders/search?q= 403 39 - 0.975 ms
+GET /api//orders/search?q=m 403 39 - 1.653 ms
+GET /api//orders/search?q=me 403 39 - 0.934 ms
+GET /api//orders/search?q=m 403 39 - 0.949 ms
+GET /api//orders/search?q= 403 39 - 1.496 ms
+GET /api//orders/search?q=m 403 39 - 0.892 ms
+GET /api//orders/search?q=me 403 39 - 1.721 ms
+GET /api//orders/search?q=m 403 39 - 1.024 ms
+GET /api//orders/search?q= 403 39 - 1.066 ms
+POST /api/users/login 200 224 - 7.369 ms
+GET /api/orders 304  - 13.343 ms
+GET /api/customers 304  - 10.700 ms
+GET /api/delivery-vehicles 304  - 9.182 ms
+GET /api//orders/search?q=m 200 596 - 9.355 ms
+GET /api//orders/search?q= 200 596 - 6.706 ms
+GET /api//orders/search?q= 304  - 5.614 ms
+GET /api/orders/search?q= 200 596 - 6.841 ms
+GET /api/orders/search?q=m 200 596 - 5.327 ms
+GET /api/orders/search?q=me 200 596 - 5.247 ms
+GET /api/orders/search?q=mee 200 299 - 4.447 ms
+GET /api/orders/search?q=me 304  - 5.968 ms
+GET /api/orders/search?q=m 304  - 6.396 ms
+GET /api/orders/search?q= 304  - 6.251 ms
+GET /api/orders 304  - 20.245 ms
+GET /api/customers 304  - 14.755 ms
+GET /api/delivery-vehicles 304  - 8.970 ms
+GET /api/orders/search?q= 304  - 5.103 ms
+GET /api/orders/search?q= 304  - 5.966 ms
+GET /api/orders/search?q=f 200 298 - 5.571 ms
+GET /api/orders 304  - 12.863 ms
+GET /api/customers 304  - 10.239 ms
+GET /api/delivery-vehicles 304  - 9.148 ms
+GET /api/orders 304  - 10.973 ms
+GET /api/customers 304  - 8.320 ms
+GET /api/delivery-vehicles 304  - 6.320 ms
+GET /api/orders/search?q=order%20id%20:%20662145819f20338a0f896a3 200 2 - 2.784 ms
+GET /api/orders/search?q=order%20id%20:%20662145819f20338a0f896a 200 2 - 3.384 ms
+GET /api/orders/search?q=order%20id%20:%20662145819f20338a0f896 200 2 - 3.433 ms
+GET /api/orders/search?q=order%20id%20:%20662145819f20338a0f89 200 2 - 2.493 ms
+GET /api/orders/search?q=order%20id%20:%20662145819f20338a0f8 200 2 - 2.403 ms
+GET /api/orders/search?q=order%20id%20:%20662145819f20338a0f 200 2 - 2.519 ms
+GET /api/orders/search?q=order%20id%20:%20662145819f20338a0 200 2 - 2.658 ms
+GET /api/orders/search?q=order%20id%20:%20662145819f20338a 200 2 - 2.676 ms
+GET /api/orders/search?q=order%20id%20:%20662145819f20338 200 2 - 3.066 ms
+GET /api/orders/search?q=order%20id%20:%20662145819f2033 200 2 - 2.826 ms
+GET /api/orders/search?q=order%20id%20:%20662145819f203 200 2 - 2.648 ms
+GET /api/orders/search?q=order%20id%20:%20662145819f20 200 2 - 2.659 ms
+GET /api/orders/search?q=order%20id%20:%20662145819f2 200 2 - 2.463 ms
+GET /api/orders/search?q=order%20id%20:%20662145819f 200 2 - 2.778 ms
+GET /api/orders/search?q=order%20id%20:%20662145819 200 2 - 2.652 ms
+GET /api/orders/search?q=order%20id%20:%2066214581 200 2 - 2.749 ms
+GET /api/orders/search?q=order%20id%20:%206621458 200 2 - 3.065 ms
+GET /api/orders/search?q=order%20id%20:%20662145 200 2 - 2.661 ms
+GET /api/orders/search?q=order%20id%20:%2066214 200 2 - 3.034 ms
+GET /api/orders/search?q=order%20id%20:%206621 200 2 - 3.888 ms
+GET /api/orders/search?q=order%20id%20:%20662 200 2 - 3.156 ms
+GET /api/orders/search?q=order%20id%20:%2066 200 2 - 2.599 ms
+GET /api/orders/search?q=order%20id%20:%206 200 2 - 3.113 ms
+GET /api/orders/search?q=order%20id%20: 200 2 - 3.657 ms
+GET /api/orders/search?q=order%20id%20: 304  - 3.458 ms
+GET /api/orders/search?q=order%20id 200 2 - 3.109 ms
+GET /api/orders/search?q=order%20id 304  - 4.098 ms
+GET /api/orders/search?q=order%20i 200 2 - 2.894 ms
+GET /api/orders/search?q=order 200 2 - 3.257 ms
+GET /api/orders/search?q=order 304  - 4.217 ms
+GET /api/orders/search?q=orde 200 2 - 3.625 ms
+GET /api/orders/search?q=ord 200 2 - 2.844 ms
+GET /api/orders/search?q=or 200 2 - 3.409 ms
+GET /api/orders/search?q=o 200 298 - 3.613 ms
+GET /api/orders/search?q= 304  - 7.284 ms
+GET /api/orders 304  - 11.797 ms
+GET /api/customers 304  - 8.122 ms
+GET /api/delivery-vehicles 304  - 6.004 ms
+GET /api/orders/search?q=m 304  - 5.560 ms
+GET /api/orders/search?q=me 304  - 6.806 ms
+GET /api/orders/searchVehicle?q=r 200 646 - 6.143 ms
+GET /api/orders 304  - 15.405 ms
+GET /api/customers 304  - 8.766 ms
+GET /api/delivery-vehicles 304  - 5.803 ms
+GET /api/orders 304  - 6.338 ms
+GET /api/customers 304  - 4.716 ms
+GET /api/delivery-vehicles 304  - 4.098 ms
+GET /api/customers 304  - 3.801 ms
+GET /api/delivery-vehicles 304  - 6.106 ms
+GET /api/delivery-vehicles/findOne?q= 304  - 4.186 ms
+GET /api/orders/searchVehicle?q=r 304  - 2.768 ms
+GET /api/orders/searchVehicle?q=ra 200 428 - 3.272 ms
+GET /api/orders/searchVehicle?q=raj 200 428 - 2.664 ms
+GET /api/delivery-vehicles/findOne?q=GJ03AB9999 200 218 - 3.981 ms
+POST /api/delivery-vehicles 201 212 - 9.728 ms
+GET /api/delivery-vehicles 200 1078 - 5.555 ms
+GET /api/orders 304  - 4.995 ms
+GET /api/customers 304  - 4.322 ms
+GET /api/orders/searchVehicle?q=a 200 1078 - 3.249 ms
+GET /api/delivery-vehicles 304  - 6.840 ms
+GET /api/delivery-vehicles/findOne?q= 304  - 4.999 ms
+POST /api/delivery-vehicles 201 222 - 3.375 ms
+GET /api/delivery-vehicles 200 1301 - 11.320 ms
+GET /api/orders 304  - 10.478 ms
+GET /api/customers 304  - 8.514 ms
+GET /api/orders/searchVehicle?q=a 200 1301 - 3.113 ms
+GET /api/delivery-vehicles 304  - 7.350 ms
+GET /api/delivery-vehicles/findOne?q= 304  - 4.742 ms
+POST /api/delivery-vehicles 201 219 - 3.507 ms
+GET /api/delivery-vehicles 200 1521 - 6.420 ms
+GET /api/orders 304  - 4.147 ms
+GET /api/customers 304  - 3.396 ms
+GET /api/orders/searchVehicle?q=a 200 1521 - 2.968 ms
+GET /api/orders/searchVehicle?q= 200 1521 - 3.585 ms
+GET /api/customers 304  - 2.856 ms
+GET /api/delivery-vehicles 304  - 8.051 ms
+GET /api/delivery-vehicles/findOne?q= 304  - 6.015 ms
+POST /api/delivery-vehicles 201 222 - 4.464 ms
+GET /api/delivery-vehicles 200 1744 - 8.067 ms
+GET /api/orders 304  - 6.662 ms
+GET /api/customers 304  - 4.694 ms
+GET /api/orders/searchVehicle?q=a 200 1744 - 4.107 ms
+GET /api/orders/searchVehicle?q= 200 1744 - 3.065 ms
+GET /api/orders/search?q=d 200 2 - 3.136 ms
+GET /api/orders/search?q= 304  - 4.885 ms
+GET /api/orders/search?q=f 304  - 5.019 ms
+GET /api/orders/search?q= 304  - 4.294 ms
+GET /api/orders/searchVehicle?q=123-truc 304  - 2.717 ms
+GET /api/orders/searchVehicle?q=123-tru 304  - 2.844 ms
+GET /api/orders/searchVehicle?q=123-tr 304  - 2.665 ms
+GET /api/orders/searchVehicle?q=123-t 304  - 4.181 ms
+GET /api/orders/searchVehicle?q=123- 304  - 2.753 ms
+GET /api/orders/searchVehicle?q=123 304  - 2.962 ms
+GET /api/orders/searchVehicle?q=12 304  - 2.682 ms
+GET /api/orders/searchVehicle?q=1 304  - 3.036 ms
+GET /api/orders/searchVehicle?q=h 200 438 - 2.661 ms
+GET /api/orders/searchItem?q=h 304  - 2.988 ms
+GET /api/orders/searchItem?q=ha 200 2 - 5.611 ms
+GET /api/orders/searchItem?q=h 304  - 4.521 ms
+GET /api/orders/searchItem?q= 304  - 3.635 ms
+GET /api/orders/searchItem?q=m 200 464 - 3.636 ms
+GET /api/orders/searchItem?q= 304  - 3.453 ms
+GET /api/orders/search?q=m 304  - 5.082 ms
+GET /api/orders/search?q=me 304  - 6.007 ms
+GET /api/orders/search?q=m 304  - 5.647 ms
+GET /api/orders/search?q= 304  - 4.187 ms
+GET /api/orders/search?q=m 304  - 5.640 ms
+GET /api/orders/search?q=me 304  - 5.629 ms
+GET /api/orders/search?q=m 304  - 8.017 ms
+GET /api/orders/searchItem?q=second%20item%20- 200 2 - 2.683 ms
+GET /api/orders/searchItem?q=second%20item%20- 304  - 2.419 ms
+GET /api/orders/searchItem?q=second%20item 200 156 - 2.648 ms
+GET /api/orders/searchItem?q=second%20item 304  - 4.274 ms
+GET /api/orders/searchItem?q=second%20ite 200 156 - 2.839 ms
+GET /api/orders/searchItem?q=second%20it 200 156 - 2.802 ms
+GET /api/orders/searchItem?q=second%20i 200 156 - 2.900 ms
+GET /api/orders/searchItem?q=second 200 156 - 2.761 ms
+GET /api/orders/searchItem?q=second 304  - 7.759 ms
+GET /api/orders/searchItem?q=secon 200 156 - 3.252 ms
+GET /api/orders/searchItem?q=seco 200 156 - 7.489 ms
+GET /api/orders/searchItem?q=sec 200 156 - 2.621 ms
+GET /api/orders/searchItem?q=se 200 156 - 4.397 ms
+GET /api/orders/searchItem?q=s 304  - 4.026 ms
+GET /api/orders/searchItem?q=f 304  - 5.620 ms
+GET /api/orders/searchCustomer?q=m 304  - 3.241 ms
+GET /api/orders/searchCustomer?q=me 304  - 3.903 ms
+GET /api/orders/searchCustomer?q=mee 304  - 4.447 ms
+GET /api/orders/searchCustomer?q=me 304  - 2.841 ms
+GET /api/orders/searchCustomer?q=m 304  - 2.586 ms
+GET /api/customers 304  - 4.620 ms
+POST /api/customers 201 151 - 9.368 ms
+POST /api/customers 201 149 - 4.436 ms
+GET /api/customers 200 623 - 7.203 ms
+GET /api/orders 304  - 8.803 ms
+GET /api/delivery-vehicles 304  - 8.223 ms
+GET /api/orders/searchCustomer?q=a 200 312 - 3.438 ms
+GET /api/orders/searchCustomer?q=f 304  - 5.978 ms
+GET /api/orders/searchCustomer?q=f 304  - 3.799 ms
+POST /api/users/register 500 107 - 11.524 ms
+POST /api/users/register 500 107 - 25.494 ms
+POST /api/users/register 500 107 - 40.839 ms
+POST /api/users/register 500 107 - 32.645 ms
+POST /api/users/register 500 107 - 27.048 ms
+POST /api/users/register 500 107 - 25.366 ms
+POST /api/users/register 500 107 - 34.213 ms
+POST /api/users/register 201 224 - 58.269 ms
+POST /api/users/login 200 224 - 7.317 ms
+GET /api/items 200 2 - 2.918 ms
+GET /api/orders 200 2 - 11.445 ms
+GET /api/customers 200 2 - 7.589 ms
+GET /api/delivery-vehicles 200 2 - 4.955 ms
+GET /api/delivery-vehicles 304  - 7.271 ms
+GET /api/delivery-vehicles/findOne?q= 304  - 4.260 ms
+GET /api/customers 304  - 4.107 ms
+POST /api/users/login 200 224 - 64.960 ms
+GET /api/items 304  - 17.086 ms
+GET /api/orders 304  - 33.322 ms
+GET /api/customers 304  - 23.278 ms
+GET /api/delivery-vehicles 304  - 11.957 ms
+GET /api/items 304  - 4.754 ms
+POST /api/items 201 149 - 36.681 ms
+GET /api/orders 304  - 17.458 ms
+GET /api/customers 304  - 13.296 ms
+GET /api/delivery-vehicles 304  - 8.065 ms
+GET /api/delivery-vehicles 304  - 14.593 ms
+GET /api/delivery-vehicles/findOne?q= 304  - 11.743 ms
+POST /api/delivery-vehicles 201 218 - 16.797 ms
+GET /api/orders/searchVehicle?q=r 200 220 - 10.409 ms
+GET /api/orders/searchVehicle?q=r 304  - 12.017 ms
+GET /api/delivery-vehicles/findOne?q=GJ03DK6033 200 218 - 8.681 ms
+GET /api/customers 304  - 5.155 ms
+POST /api/customers 201 155 - 12.693 ms
+GET /api/customers 200 157 - 25.848 ms
+GET /api/orders 304  - 19.335 ms
+GET /api/delivery-vehicles 200 220 - 14.784 ms
+GET /api/orders/searchVehicle?q=f 200 2 - 6.617 ms
+GET /api/orders/searchVehicle?q=b 200 2 - 8.139 ms
+GET /api/orders/searchVehicle?q=r 304  - 8.112 ms
+GET /api/orders/searchItem?q=a 304  - 7.718 ms
+GET /api/orders/searchItem?q=b 200 151 - 9.550 ms
+GET /api/orders/searchCustomer?q=m 200 2 - 7.744 ms
+GET /api/orders/searchCustomer?q=d 200 157 - 10.159 ms
+POST /api/orders 201 298 - 48.418 ms
+POST /api/users/login 200 224 - 40.632 ms
+GET /api/items 200 151 - 11.142 ms
+POST /api/items 201 150 - 21.173 ms
+POST /api/items 201 155 - 6.514 ms
+POST /api/items 201 158 - 5.426 ms
+POST /api/items 201 157 - 4.663 ms
+GET /api/items 200 775 - 2.866 ms
+GET /api/items 304  - 2.195 ms
+GET /api/items 304  - 3.362 ms
+POST /api/items 201 150 - 3.853 ms
+GET /api/items 200 926 - 1.939 ms
+GET /api/items 304  - 3.823 ms
+GET /api/items 304  - 2.075 ms
+GET /api/items 304  - 2.780 ms
+GET /api/items 304  - 1.942 ms
+GET /api/items 304  - 3.301 ms
+GET /api/items 304  - 1.912 ms
+GET /api/items 304  - 1.722 ms
+GET /api/items 304  - 2.728 ms
+GET /api/items 304  - 1.777 ms
+GET /api/items 304  - 3.141 ms
+GET /api/customers 304  - 11.345 ms
+POST /api/customers 201 155 - 10.514 ms
+GET /api/delivery-vehicles 200 220 - 15.297 ms
+GET /api/delivery-vehicles/findOne?q= 304  - 24.107 ms
+POST /api/delivery-vehicles 201 212 - 12.255 ms
+POST /api/delivery-vehicles 201 218 - 3.044 ms
+POST /api/delivery-vehicles 201 217 - 3.781 ms
+GET /api/customers 200 313 - 4.566 ms
+POST /api/customers 201 159 - 3.064 ms
+POST /api/customers 201 159 - 5.296 ms
+GET /api/customers 200 633 - 4.966 ms
+GET /api/delivery-vehicles 200 870 - 3.183 ms
+GET /api/orders 200 300 - 10.622 ms
+GET /api/orders/searchVehicle?q=a 200 870 - 4.211 ms
+GET /api/orders/searchVehicle?q=ah 200 220 - 2.513 ms
+GET /api/orders/searchVehicle?q=a 304  - 2.926 ms
+GET /api/orders/searchVehicle?q=r 200 438 - 2.659 ms
+GET /api/orders/searchVehicle?q=ra 200 220 - 2.762 ms
+GET /api/orders/searchVehicle?q=raj 200 220 - 2.548 ms
+GET /api/orders/searchVehicle?q=ra 304  - 2.931 ms
+GET /api/orders/searchVehicle?q=r 304  - 2.825 ms
+GET /api/orders/searchVehicle?q=b 200 438 - 3.135 ms
+GET /api/orders/searchVehicle?q=bh 200 219 - 2.524 ms
+GET /api/orders/searchVehicle?q=bha 200 219 - 2.749 ms
+GET /api/orders/searchVehicle?q=bh 304  - 2.517 ms
+GET /api/orders/searchVehicle?q=b 304  - 2.626 ms
+GET /api/delivery-vehicles 304  - 4.397 ms
+GET /api/delivery-vehicles/findOne?q= 304  - 2.564 ms
+POST /api/delivery-vehicles 201 214 - 5.707 ms
+GET /api/delivery-vehicles 200 1085 - 3.929 ms
+GET /api/orders 304  - 4.104 ms
+GET /api/customers 304  - 2.711 ms
+GET /api/orders/searchVehicle?q=r 200 653 - 2.587 ms
+GET /api/orders/searchVehicle?q=ra 200 435 - 2.536 ms
+GET /api/orders/searchVehicle?q=rak 200 2 - 2.370 ms
+GET /api/orders/searchVehicle?q=ra 304  - 2.616 ms
+GET /api/orders/searchVehicle?q=raj 200 435 - 2.599 ms
+GET /api/orders/searchVehicle?q=rajk 200 435 - 2.503 ms
+GET /api/orders/searchVehicle?q=raj 304  - 2.679 ms
+GET /api/orders/searchVehicle?q=ra 304  - 2.498 ms
+GET /api/orders/searchVehicle?q=r 304  - 2.653 ms
+GET /api/orders/searchVehicle?q=a 200 1085 - 2.682 ms
+GET /api/orders/searchVehicle?q=r 304  - 3.059 ms
+GET /api/orders/searchVehicle?q=ra 304  - 2.560 ms
+GET /api/orders/searchVehicle?q=raj 304  - 2.529 ms
+GET /api/orders/searchVehicle?q=rajk 304  - 2.811 ms
+GET /api/orders/searchItem?q=c 200 159 - 2.745 ms
+GET /api/orders/searchItem?q=ca 200 159 - 3.175 ms
+GET /api/orders/searchItem?q=car 200 159 - 2.652 ms
+GET /api/orders/searchItem?q=ca 304  - 2.479 ms
+GET /api/orders/searchItem?q=c 304  - 2.805 ms
+GET /api/orders/searchItem?q=b 200 310 - 2.562 ms
+GET /api/orders/searchItem?q=bi 200 160 - 2.578 ms
+GET /api/orders/searchItem?q=bik 200 160 - 2.450 ms
+GET /api/orders/searchItem?q=bi 304  - 4.103 ms
+GET /api/orders/searchItem?q=b 304  - 3.145 ms
+GET /api/orders/searchItem?q=f 200 152 - 2.563 ms
+GET /api/orders/searchItem?q=fr 200 152 - 2.481 ms
+GET /api/orders/searchItem?q=fri 200 152 - 2.593 ms
+GET /api/orders/searchCustomer?q=d 304  - 2.641 ms
+GET /api/orders/searchCustomer?q=de 200 157 - 2.634 ms
+GET /api/orders/searchCustomer?q=dep 200 2 - 2.426 ms
+GET /api/orders/searchCustomer?q=de 304  - 2.524 ms
+GET /api/orders/searchCustomer?q=d 304  - 2.585 ms
+GET /api/orders/searchCustomer?q=m 200 321 - 2.460 ms
+GET /api/orders/searchCustomer?q=me 200 321 - 2.543 ms
+GET /api/customers 304  - 3.218 ms
+GET /api/orders 304  - 8.098 ms
+GET /api/customers 200 473 - 5.313 ms
+GET /api/delivery-vehicles 304  - 4.418 ms
+GET /api/orders/searchCustomer?q=m 200 161 - 2.526 ms
+GET /api/orders/searchCustomer?q=me 200 161 - 2.477 ms
+GET /api/orders/searchVehicle?q=r 304  - 2.595 ms
+GET /api/orders/searchVehicle?q=ra 304  - 2.555 ms
+GET /api/orders/searchVehicle?q=raj 304  - 3.080 ms
+GET /api/orders/searchItem?q=f 304  - 2.489 ms
+GET /api/orders/searchItem?q=fr 304  - 2.669 ms
+GET /api/orders/searchItem?q=fri 304  - 2.417 ms
+GET /api/orders/searchCustomer?q=m 304  - 2.494 ms
+GET /api/orders/searchCustomer?q=d 304  - 2.491 ms
+GET /api/orders/searchCustomer?q=de 304  - 2.431 ms
+GET /api/orders/searchCustomer?q=h 200 317 - 2.468 ms
+GET /api/orders/searchCustomer?q=ha 200 2 - 2.406 ms
+GET /api/orders/searchCustomer?q=h 304  - 2.584 ms
+GET /api/orders/searchCustomer?q=r 200 2 - 2.251 ms
+GET /api/orders/searchCustomer?q=ra 200 2 - 2.413 ms
+GET /api/orders/searchCustomer?q=raj 200 2 - 2.455 ms
+GET /api/orders/searchCustomer?q=rajk 200 2 - 2.407 ms
+GET /api/orders/searchCustomer?q=raj 304  - 2.313 ms
+GET /api/orders/searchCustomer?q=ra 304  - 2.362 ms
+GET /api/orders/searchCustomer?q=r 304  - 2.317 ms
+GET /api/orders/searchCustomer?q=d 304  - 2.581 ms
+GET /api/orders/searchCustomer?q=de 304  - 2.478 ms
+POST /api/orders 201 298 - 31.386 ms
+GET /api/orders/search?q=f 200 2 - 2.464 ms
+GET /api/orders/search?q=fr 200 2 - 2.261 ms
+GET /api/orders/search?q=f 304  - 2.269 ms
+GET /api/orders/search?q=d 200 300 - 3.344 ms
+GET /api/orders/search?q=de 200 300 - 3.529 ms
+PATCH /api/orders/66222b8e6f4a86ecb561c0ed/delivered 200 297 - 7.618 ms
+GET /api/orders 200 598 - 7.818 ms
+GET /api/customers 304  - 5.637 ms
+GET /api/delivery-vehicles 200 1085 - 3.800 ms
+GET /api/orders/search?q=m 200 6 - 3.462 ms
+POST /api/users/login 200 224 - 3.335 ms
+GET /api/orders 304  - 7.858 ms
+GET /api/customers 304  - 7.576 ms
+GET /api/delivery-vehicles 304  - 6.647 ms
+GET /api/orders/search?q=m 304  - 3.448 ms
+GET /api/orders 304  - 6.470 ms
+GET /api/customers 304  - 6.267 ms
+GET /api/delivery-vehicles 304  - 5.885 ms
+GET /api/orders/search?q=m 304  - 3.398 ms
+GET /api/orders 304  - 7.155 ms
+GET /api/customers 304  - 5.277 ms
+GET /api/delivery-vehicles 304  - 3.672 ms
+GET /api/orders/search?q=m 304  - 3.249 ms
+GET /api/orders 304  - 13.069 ms
+GET /api/customers 304  - 9.995 ms
+GET /api/delivery-vehicles 304  - 7.362 ms
+GET /api/orders/search?q=a 200 6 - 3.026 ms
+GET /api/orders 304  - 7.801 ms
+GET /api/customers 304  - 6.025 ms
+GET /api/delivery-vehicles 304  - 4.873 ms
+GET /api/orders/search?q=m 304  - 3.744 ms
+POST /api/users/login 200 224 - 2.995 ms
+GET /api/items 304  - 2.499 ms
+GET /api/orders 304  - 7.400 ms
+GET /api/delivery-vehicles 304  - 6.242 ms
+GET /api/customers 304  - 4.828 ms
+GET /api/orders/search?q=m 304  - 3.841 ms
+GET /api/orders/search?q=d 200 299 - 4.564 ms
+GET /api/orders/search?q=de 200 299 - 3.645 ms
+GET /api/orders/search?q=d 304  - 4.707 ms
+GET /api/orders/search?q=d 304  - 3.681 ms
+GET /api/orders/search?q=de 304  - 5.330 ms
+GET /api/orders/search?q=d 304  - 3.754 ms
+GET /api/orders/search?q=m 304  - 5.404 ms
+GET /api/orders/search?q=me 200 6 - 3.316 ms
+GET /api/orders/search?q=m 304  - 3.717 ms
+GET /api/customers 304  - 2.968 ms
+GET /api/customers 304  - 5.552 ms
+GET /api/orders 304  - 7.242 ms
+GET /api/delivery-vehicles 304  - 5.474 ms
+GET /api/orders/search?q=k 200 6 - 3.427 ms
+GET /api/orders/search?q== 200 2 - 2.671 ms
+GET /api/orders/searchVehicle?q=a 200 1085 - 3.229 ms
+GET /api/orders/searchVehicle?q=an 200 214 - 2.961 ms
+GET /api/orders/searchItem?q=l 200 467 - 2.812 ms
+GET /api/orders/searchItem?q=la 200 311 - 2.795 ms
+GET /api/orders/searchItem?q=lap 200 152 - 2.803 ms
+GET /api/orders/searchCustomer?q=k 200 157 - 12.534 ms
+POST /api/orders 201 298 - 41.377 ms
+GET /api/orders/search?q=k 200 300 - 5.085 ms
+GET /api/orders/search?q=ku 200 300 - 4.750 ms
+GET /api/orders/search?q=k 304  - 4.672 ms
+POST /api/users/login 200 224 - 22.568 ms
+GET /api/orders 200 897 - 22.139 ms
+GET /api/customers 304  - 17.278 ms
+GET /api/delivery-vehicles 200 1085 - 16.709 ms
+GET /api/items 304  - 9.477 ms
+GET /api/delivery-vehicles 304  - 17.501 ms
+GET /api/delivery-vehicles/findOne?q= 304  - 14.055 ms
+GET /api/orders/searchVehicle?q=r 200 653 - 9.993 ms
+GET /api/orders/searchVehicle?q=ra 200 435 - 9.812 ms
+GET /api/orders/searchVehicle?q=raj 200 435 - 13.032 ms
+GET /api/delivery-vehicles/findOne?q=GJ03HJ8723 200 214 - 7.637 ms
+GET /api/customers 304  - 8.313 ms
+GET /api/orders 304  - 20.423 ms
+GET /api/customers 304  - 15.539 ms
+GET /api/delivery-vehicles 304  - 11.516 ms
+GET /api/orders/searchVehicle?q=a 200 1085 - 8.152 ms
+GET /api/orders/searchVehicle?q=ah 304  - 9.231 ms
+GET /api/orders/searchItem?q=f 304  - 7.916 ms
+GET /api/orders/searchItem?q=fr 304  - 7.438 ms
+GET /api/orders/searchItem?q=fri 304  - 9.679 ms
+GET /api/orders/searchCustomer?q=m 304  - 7.746 ms
+GET /api/orders/searchCustomer?q=me 304  - 8.737 ms
+GET /api/orders/searchCustomer?q=m 304  - 10.675 ms
+GET /api/orders/searchCustomer?q=d 304  - 8.980 ms
+GET /api/orders/searchCustomer?q=de 304  - 6.583 ms
+GET /api/orders/searchCustomer?q=d 304  - 7.427 ms
+GET /api/orders/searchCustomer?q=m 304  - 7.697 ms
+GET /api/orders/searchCustomer?q=me 304  - 11.095 ms
+POST /api/orders 201 298 - 24.531 ms
+GET /api/orders/search?q=m 200 300 - 9.941 ms
+GET /api/orders/search?q=me 200 300 - 8.459 ms
+GET /api/orders/search?q=m 304  - 11.858 ms
+PATCH /api/orders/66224d7a3e8d898f1f64c96f/delivered 200 297 - 15.209 ms
+GET /api/orders/search?q=m 200 299 - 10.406 ms
+GET /api/orders/search?q=me 200 299 - 9.402 ms
+GET /api/orders/search?q=m 304  - 11.609 ms
+POST /api/users/login 200 224 - 9.965 ms
+GET /api/items 304  - 4.150 ms
+GET /api/delivery-vehicles 200 1085 - 11.138 ms
+GET /api/delivery-vehicles/findOne?q= 304  - 8.973 ms
+GET /api/customers 304  - 6.476 ms
+GET /api/orders 200 1195 - 16.437 ms
+GET /api/customers 304  - 14.986 ms
+GET /api/delivery-vehicles 304  - 13.999 ms
+GET /api/orders/searchVehicle?q=r 304  - 5.587 ms
+GET /api/orders/searchVehicle?q=ra 304  - 8.864 ms
+GET /api/orders/searchItem?q=f 304  - 7.578 ms
+GET /api/orders/searchItem?q=fr 304  - 5.698 ms
+GET /api/orders/searchItem?q=f 304  - 8.463 ms
+GET /api/orders/searchItem?q=t 200 466 - 7.021 ms
+GET /api/orders/searchCustomer?q=m 304  - 7.343 ms
+POST /api/orders 201 299 - 23.310 ms
+GET /api/orders/search?q=m 304  - 8.889 ms
+GET /api/orders/search?q=me 304  - 9.669 ms
+GET /api/orders/search?q=mee 200 299 - 9.920 ms
+GET /api/orders/search?q=me 304  - 9.149 ms
+GET /api/orders/search?q=m 304  - 11.960 ms
+GET /api/orders/search?q=m 304  - 6.239 ms
+PATCH /api/orders/662251ca3e8d898f1f64c995/delivered 200 298 - 15.208 ms
+GET /api/orders/search?q=m 304  - 18.652 ms
+GET /api/orders/searchCustomer?q=k 304  - 11.450 ms
+GET /api/orders/searchCustomer?q=ku 200 157 - 14.777 ms
+PATCH /api/orders/6622416fd09295a10fe6a2ff/delivered 200 297 - 52.540 ms
+PATCH /api/orders/6622438a3e8d898f1f64c946/delivered 200 297 - 19.609 ms
+POST /api/orders 201 299 - 45.715 ms
+GET /api/orders/search?q=k 200 299 - 12.117 ms
+GET /api/orders/search?q=ku 200 299 - 11.265 ms
+GET /api/customers 304  - 7.244 ms
+POST /api/customers 201 151 - 10.288 ms
+GET /api/customers 200 625 - 7.398 ms
+GET /api/orders 200 1792 - 16.174 ms
+GET /api/delivery-vehicles 200 1085 - 15.250 ms
+GET /api/orders/searchCustomer?q=h 200 469 - 10.003 ms
+POST /api/orders 500 60 - 10.473 ms
+GET /api/orders/search?q=h 200 602 - 15.289 ms
+GET /api/orders/search?q=ha 200 6 - 10.808 ms
+PATCH /api/orders/66225326a92f65af7a7743ab/delivered 200 298 - 18.659 ms
+GET /api/orders/search?q=h 304  - 13.832 ms
+GET /api/orders/search?q=h 304  - 11.580 ms
+GET /api/orders/search?q=ha 304  - 11.759 ms
+GET /api/orders/search?q=h 304  - 16.418 ms
+GET /api/orders/search?q=h 304  - 15.857 ms
+GET /api/orders/search?q=ha 304  - 10.841 ms
+GET /api/orders/search?q=har 200 6 - 9.095 ms
+GET /api/orders/search?q=hars 200 6 - 5.040 ms
+GET /api/orders/search?q=har 304  - 10.840 ms
+GET /api/orders/search?q=ha 304  - 8.646 ms
+GET /api/orders/search?q=h 304  - 10.762 ms

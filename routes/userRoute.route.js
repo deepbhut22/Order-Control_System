@@ -33,9 +33,9 @@ userRouter.post("/users/login", async (req, res) => {
 
 userRouter.post("/users/register", async (req, res) => {
   const { name, phoneNumber, password } = req.body;
-
+  console.log(req.body);
   try {
-    // Check if a user with the provided phone number already exists
+    
     const existingUser = await UsersModel.findOne({ phoneNumber });
 
     if (existingUser) {
@@ -49,14 +49,15 @@ userRouter.post("/users/register", async (req, res) => {
       }
 
       try {
+        console.log("here tak aa gaya");
         // Create a new user with the hashed password
         const newUser = new UsersModel({ name, phoneNumber, password: hash });
         await newUser.save();
-
+        console.log("here tak nahi aaya");
         // Generate JWT token
-        const token = jwt.sign({ userId: newUser._id }, "syook", {
+        const token = jwt.sign({ userId: newUser._id }, "mysecretkeyhehehehe", {
           expiresIn: "1h",
-        });
+        })
 
         // Send token to the client
         res.status(201).json({ token, userId: newUser._id });
@@ -65,6 +66,7 @@ userRouter.post("/users/register", async (req, res) => {
       }
     });
   } catch (error) {
+    console.log(error);
     res.status(401).json({ error: error.message });
   }
 });

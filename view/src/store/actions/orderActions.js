@@ -26,6 +26,7 @@ export const createOrder = (orderData, token) => async (dispatch) => {
       orderData,
       config
     );
+    // console.log(response);
     //console.log(response);
     dispatch({ type: CREATE_ORDER_SUCCESS, payload: response.data });
   } catch (error) {

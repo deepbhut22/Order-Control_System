@@ -18,6 +18,29 @@ DeliveryVehicleRouter.post("/delivery-vehicles", async (req, res) => {
   }
 });
 
+DeliveryVehicleRouter.delete("/delivery-vehicles/delete", async (req,res) => {
+  const name = req.query.q;
+
+
+  const response = await DeliveryVehicleModel.findOneAndDelete({name: name});
+
+  res.json(response);
+})
+
+DeliveryVehicleRouter.get("/delivery-vehicles/findOne", async (req,res) => {
+  try {
+    const name = req.query.q;
+  
+    const response = await DeliveryVehicleModel.findOne({registrationNumber: name});
+  
+    res.json(response);
+    
+  } catch (error) {
+    console.log(error);
+    res.json({"badbadbad":"jhdbfhjbd"})
+  }
+})
+
 // Read all delivery vehicles
 DeliveryVehicleRouter.get("/delivery-vehicles", async (req, res) => {
   try {

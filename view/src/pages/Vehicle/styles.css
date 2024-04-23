@@ -1,0 +1,31 @@
+/* Add this CSS to your existing styles or create a new CSS file */
+.delivery-vehicle-list-container {
+    padding: 20px;
+  }
+  
+  .login-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .add-vehicle-form,
+  .searched-vehicle,
+  .vehicle-list {
+    margin-top: 20px;
+  }
+  
+  .add-vehicle-form h2,
+  .searched-vehicle h3,
+  .vehicle-item {
+    margin-bottom: 10px;
+  }
+  
+  .vehicle-details span {
+    margin-right: 20px;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 20px;
+  }
+  

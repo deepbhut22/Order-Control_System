@@ -21,7 +21,7 @@ const Navbar = () => {
     <header className="header active">
       <div className="container">
         <Link to="/" className="logo">
-          Fleeto
+          Order-Control-System
         </Link>
 
         <nav className={`navbar ${isMobileMenuOpen ? "active" : ""}`}>

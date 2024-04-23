@@ -14,9 +14,8 @@ const ItemModel = require("../models/Items.model");
 OrderRouter.post("/orders", async (req, res) => {
   try {
     const { itemId, customerId } = req.body;
-    const customer = await CustomerModel.findById(customerId);
+    const customer = await CustomerModel.findOne({name: customerId});
     const deliveryVehicle = await DeliveryVehicleModel.findOne({
-      city: customer.city,
       activeOrdersCount: { $lt: 2 },
     });
 
@@ -26,11 +25,11 @@ OrderRouter.post("/orders", async (req, res) => {
         .json({ message: "No available delivery vehicle." });
     }
 
-    const item = await ItemModel.findById(itemId);
+    const item = await ItemModel.findOne({name:itemId});
     const order = new OrderModel({
       itemId: item._id,
       price: item.price,
-      customerId,
+      customerId: customer._id,
       deliveryVehicleId: deliveryVehicle._id,
     });
 
@@ -42,6 +41,47 @@ OrderRouter.post("/orders", async (req, res) => {
   } catch (error) {
     res.status(500).json({ message: error.message });
   }
+});
+
+
+OrderRouter.get('/orders/searchVehicle', async (req, res) => {
+  const query = req.query.q.toLowerCase();
+
+  const response = await DeliveryVehicleModel.find({ city: { $regex: query, $options: 'i' } });
+
+  res.json(response);
+});
+
+OrderRouter.get('/orders/search', async (req, res) => {
+  const query = req.query.q;
+
+  const response = await CustomerModel.find({ name: { $regex: query, $options: 'i' } });
+  var orders = [];
+  
+  for(let i=0 ; i<response.length ; i++) {
+    orders.push(await OrderModel.findOne({customerId: response[i]._id}));
+  }
+
+  res.json(orders);
+});
+
+
+OrderRouter.get('/orders/searchItem', async (req, res) => {
+
+  const query = req.query.q.toLowerCase();
+
+  const response = await ItemModel.find({ name: { $regex: query, $options: 'i' } });
+
+  res.json(response);
+});
+
+OrderRouter.get('/orders/searchCustomer', async (req, res) => {
+
+  const query = req.query.q.toLowerCase();
+
+  const response = await CustomerModel.find({ name: { $regex: query, $options: 'i' } });
+
+  res.json(response);
 });
 
 // Mark an order as delivered
